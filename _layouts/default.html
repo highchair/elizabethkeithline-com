@@ -1,0 +1,12 @@
+<!doctype HTML>
+<html lang="en">
+  
+  {% comment %}
+  {% include head.html %}
+  {% endcomment %}
+  <body class="l--{{ page.layout }}{% if page.body-class %} page--{{ page.body-class }}{% endif %} no-js">
+    
+    {{ page.content }}
+    
+  </body>
+</html>
