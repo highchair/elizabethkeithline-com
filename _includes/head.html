@@ -1,0 +1,50 @@
+{%- assign meta_title = site.title -%}
+{% comment %}Default: "Elizabeth Keithline"{% endcomment %}
+{%- assign meta_title_trailer = site.title | prepend: ' | ' -%}
+{% comment %}Default: "| Elizabeth Keithline"{% endcomment %}
+{% comment %}If there is a page title value:{% endcomment %}
+{%- if page.title -%}
+  {%- assign meta_title = page.title | append: meta_title_trailer -%}
+{%- endif -%}
+{%- assign meta_description = site.description -%}
+{%- if page.description -%}
+  {%- assign meta_description = page.description -%}
+{%- endif -%}
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>{{ meta_title }}</title>
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta name="description" content="{{ meta_description | strip_html | truncate: 140 }}">
+    <meta property="og:title" content="{{ meta_title }}">
+    <meta property="og:description" content="{{ meta_description | strip_html | truncate: 140 }}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wdth,wght@84,300;84,540;100,200;100,342;100,540&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    
+    {% comment %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-817925-2"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-17D4B0M6BN"></script>
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.prod_url }}{% unless page.url == '\' %}{{ page.url }}{% endunless %}">
+    
+    <meta property="og:image" content="{{ site.prod_url }}{{ meta_image }}">
+    
+    <!-- Icons and Theme -->
+    <link rel="icon" type="image/png" sizes="any" href="{{ site.prod_url }}assets/favicons/favicon-32x32.png">
+    <link rel="icon" href="{{ site.prod_url }}assets/favicons/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="{{ site.prod_url }}assets/favicons/apple-touch-icon.png">
+    <link rel="manifest" href="{{ site.prod_url }}assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="{{ site.prod_url }}assets/favicons/safari-pinned-tab.svg" color="#007070">
+    <meta name="msapplication-config" content="{{ site.prod_url }}assets/favicons/browserconfig.xml">
+    <meta name="msapplication-TileColor" content="#007070">
+    <meta name="theme-color" content="#007070">
+
+    Looking for analytics? JS lazy loads it only when the user opts in
+    {% endcomment %}
+  </head>

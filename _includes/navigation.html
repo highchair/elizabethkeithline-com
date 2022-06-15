@@ -1,0 +1,10 @@
+	<ul {% if include.top == "Yes" %}id="mainmenu" class="aria-expand" {% endif %}role="list">
+		<li><a href="#">Paintings</a></li>
+		<li><a href="#">Sculpture</a></li>
+		<li><a href="{% link about.md %}">About</a></li>
+		<li><a href="#">News</a></li>
+		<li><a href="#">Contact</a></li>
+		{% if include.top != "Yes" %}<li class="n__social">
+			{% include instagram.html %}
+		</li>{% endif %}
+	</ul>
