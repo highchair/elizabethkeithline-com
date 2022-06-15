@@ -1,0 +1,123 @@
+// General global styles. Some override settings in USWDS
+
+// Gutters: horizontal spacing
+%fluid-gutter-p {
+  @include fluid-units('padding-inline-start' 'padding-inline-end', $gutter-min, $gutter-max, $spacing__min-vw, $spacing__max-vw);
+}
+
+%fluid-gutter-ps {
+  @include fluid-units('padding-inline-start', $gutter-min, $gutter-max, $spacing__min-vw, $spacing__max-vw);
+}
+
+%fluid-gutter-pe {
+  @include fluid-units('padding-inline-end', $gutter-min, $gutter-max, $spacing__min-vw, $spacing__max-vw);
+}
+
+// Flexible gutter helper
+%fluid-gutter-ms {
+  @include fluid-units('margin-inline-start', $gutter-min, $gutter-max, $min-vw, $max-vw);
+}
+
+%fluid-gutter-me {
+  @include fluid-units('margin-inline-end', $gutter-min, $gutter-max, $min-vw, $max-vw);
+}
+
+// Classes
+.u__gutter__p {
+  @extend %fluid-gutter-p;
+  
+  &s {
+    @extend %fluid-gutter-ps;
+  }
+  
+  &e {
+    @extend %fluid-gutter-pe;
+  }
+}
+
+.u__gutter__m {
+  
+  &s {
+    @extend %fluid-gutter-me;
+  }
+  
+  &e {
+    @extend %fluid-gutter-ms;
+  }
+}
+
+
+// Vertical rhythm
+%fluid-vertical-p {
+  @include fluid-units(
+    'padding-top' 'padding-bottom',
+    $vertical-min,
+    $vertical-max,
+    $spacing__min-vw,
+    $spacing__max-vw
+  );
+}
+
+%fluid-vertical-pt {
+  @include fluid-units(
+    'padding-top',
+    $vertical-min,
+    $vertical-max,
+    $spacing__min-vw,
+    $spacing__max-vw
+  );
+}
+
+%fluid-vertical-mt {
+  @include fluid-units(
+    'margin-top',
+    $vertical-min,
+    $vertical-max,
+    $spacing__min-vw,
+    $spacing__max-vw
+  );
+}
+
+%fluid-vertical-pb {
+  @include fluid-units(
+    'padding-bottom',
+    $vertical-min,
+    $vertical-max,
+    $spacing__min-vw,
+    $spacing__max-vw
+  );
+}
+
+%fluid-vertical-mb {
+  @include fluid-units(
+    'margin-bottom',
+    $vertical-min,
+    $vertical-max,
+    $spacing__min-vw,
+    $spacing__max-vw
+  );
+}
+
+// Classes
+.u__vertical__p {
+  @extend %fluid-vertical-p;
+  
+  &t {
+    @extend %fluid-vertical-pt;
+  }
+  
+  &b {
+    @extend %fluid-vertical-pb;
+  }
+}
+
+.u__vertical__m {
+  
+  &t {
+    @extend %fluid-vertical-mt;
+  }
+  
+  &b {
+    @extend %fluid-vertical-mb;
+  }
+}

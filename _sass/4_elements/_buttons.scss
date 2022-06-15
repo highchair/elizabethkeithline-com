@@ -1,0 +1,16 @@
+.btn {
+  @include button-reset; // in case this is an actual button element
+  background-color: transparent;
+  border-bottom: 2px solid palette(gray-700);
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  padding: 0.625rem 0;
+  text-decoration: none;
+  transition: $transition;
+
+  @include hover-focus() {
+    color: $color__link--hover;
+    transform: translate(2px, 2px);
+  }
+}

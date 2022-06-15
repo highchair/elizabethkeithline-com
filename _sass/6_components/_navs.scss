@@ -1,0 +1,173 @@
+// Navigations
+
+// <header class="c c--max">
+//   <a class="brand h2" href=".">{{ site.title }}</a>
+//   <nav class="n n--top" aria-label="Primary">
+//     <button class="n__toggler js-accordion" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+//       <span class="n__toggler__label">Menu</span>
+//     </button>
+//     <ul role="list">
+//       <li><a href="#">Paintings</a></li>
+//       <li class="n__social"><a href="#">Instagram</a></li>
+//     </ul>
+
+
+$nav-v-padding: 0.75rem;
+$nav-h-padding: 0.5rem;
+
+.brand {
+  display: block;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  white-space: nowrap;
+  
+  // Bottom/Footer
+  footer & {
+    text-align: center;
+  }
+}
+
+.n {
+  text-align: center;
+  
+  // Any link
+  a {
+    padding: $nav-v-padding $nav-h-padding;
+  }
+  
+  li > a {
+    background-color: transparent;
+    
+    @include hover-focus() {
+      background-color: $color__link-bg;
+    }
+  }
+  
+  // Button
+  &__toggler {
+    @include button-reset();
+    background-color: transparent;
+    padding: $nav-v-padding $nav-h-padding;
+    transition: $transition;
+
+    @include hover-focus() {
+      background-color: $color__link-bg;
+    }
+    
+    &[aria-expanded=true],
+    &:active {
+      background-color: $color__body-fg;
+      color: $color__body-bg;
+    }
+    
+    // Swap icons
+    &[aria-expanded=false] {
+      .close {
+        @include hide;
+      }
+    }
+    
+    &[aria-expanded=true] {
+      .navicon {
+        @include hide;
+      }
+      .close {
+        @include show(inline);
+      }
+    }
+    
+    &__label {
+      white-space: nowrap;
+    }
+    
+    // Breakpoint
+    @include breakpoint-up($mobile-to-desktop-nav) {
+      @include hide;
+    }
+  }
+  
+  // social
+  &__social {
+
+    // The Instagram link inside the Nav
+    .n--bottom & {
+      @include breakpoint-up($mobile-to-desktop-nav) {
+        @include hide;
+      }
+    }
+
+    // The Instagram link adjacent to the Nav
+    .n--bottom + &__link {
+      @include breakpoint-down($mobile-to-desktop-nav) {
+        @include hide;
+      }
+    }
+
+    // Both labels inside the links adjacent
+    .n + &__link &__label {
+      @include sr-only;
+    }
+
+    .n + &__link .social__instagram::before {
+      margin-inline-end: 0;
+    }
+
+    .n + &__link {
+      display: block;
+      padding: $nav-v-padding 0 $nav-v-padding ($nav-h-padding * 2);
+    }
+  }
+  
+  // Top header
+  &--top {
+    //margin-inline-start: auto;
+  }
+  
+  // Bottom/Footer nav modifier
+  &--bottom {
+    
+    a {
+      text-align: center;
+    }
+  }
+  
+  // Both need to go horizontal
+  // Breakpoint
+  @include breakpoint-up($mobile-to-desktop-nav) {
+    ul {
+      // Negate the #mainmenu items
+      box-shadow: none !important;
+      padding-bottom: 0 !important;
+      position: static !important;
+      
+      // Negate rules from the .aria-expand class
+      opacity: 1 !important;
+      max-height: unset !important;
+      visibility: visible !important;
+      
+      // Now style the element for horizontal orientation
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      margin: 0 auto;
+    }
+  }
+}
+
+// Positioning the mainmenu for mobile
+#mainmenu {
+  background-color: $color__body-bg;
+  box-shadow: 0 0.5rem 0.5rem rgba($black, 0.25);
+  padding-bottom: $nav-v-padding;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: z(mainmenu);
+  
+  li {
+    @include breakpoint-down($mobile-to-desktop-nav) {
+      padding-top: $nav-v-padding;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.c {
+  
+  &--max {
+    max-width: $max-width;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }
+  
+  &--text {
+    max-width: $max-width__text;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+  }
+}

@@ -1,0 +1,48 @@
+.u {
+
+  &__lead {
+    // font size in 4_elements/typography
+  }
+
+  &__infobox {
+    background-color: $white;
+    border: 1px solid $color__borders;
+    border-radius: 4px;
+    padding: 1.5rem 1rem;
+
+    > * + * {
+      margin-top: $vertical-rhythm;
+    }
+
+    @include breakpoint-up(large) {
+      margin-inline-start: -2rem;
+      margin-inline-end: -2rem;
+      padding: 2rem;
+    }
+  }
+
+  // &__drop-cap:first-letter {
+  //   //color: palette('brand-teal');
+  //   float: left;
+  //   font-size: 3.5em;
+  //   //font-weight: $font-custom__serif__lt-weight;
+  //   line-height: 1;
+  //   margin-top: -0.175em;
+  //   margin-right: 0.125em;
+  //   
+  //   // If Firefox
+  //   @include for-any-firefox() {
+  //     margin-top: 0.125em;
+  //   }
+  // }
+  
+  // &__pull-quote {
+  //   //background: bottom right no-repeat url('../img/hashes-yellow-bot-right.svg') transparent;
+  //   //background-size: ($hashes__width * 0.75) ($hashes__height * 0.75);
+  //   //color: palette('brand-red');
+  //   font-size: 1.625em;
+  //   // Experimental way to "stretch" the font and make it a little more legible
+  //   transform: scale(1.125, 1);
+  //   padding: 0 1.5em;
+  // }
+}

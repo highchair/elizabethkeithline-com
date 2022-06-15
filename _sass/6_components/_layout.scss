@@ -1,0 +1,63 @@
+// Layout
+
+.l {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+  overflow-y: scroll;
+  
+  > header {
+    background-color: $color__body-bg;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    width: 100%;
+    z-index: z(header);
+    
+    nav {
+      margin-inline-start: auto;
+    }
+    
+    @include breakpoint-up($mobile-to-desktop-nav) {
+      justify-content: space-between;
+      
+      nav {
+        margin-inline-start: 0;
+      }
+    }
+  }
+  
+  > main {
+    margin-top: rem(54);
+    width: 100%;
+    z-index: z(main);
+  }
+  
+  > footer {
+    background-color: $color__body-bg;
+    margin-top: auto;
+    width: 100%;
+
+    @include breakpoint-up($mobile-to-desktop-nav) {
+      > div {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+.copyright {
+  color: palette(gray-700);
+  text-align: center;
+  
+  @include breakpoint-up($mobile-to-desktop-nav) {
+    br {
+      @include hide;
+    }
+  }
+}

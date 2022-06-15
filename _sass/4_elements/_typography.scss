@@ -1,0 +1,381 @@
+// Responsive and fluid type sizing
+// Root sizes are set in 3_generic/_root.scss
+
+
+// Fallbacks for IE11 and crappier browsers. Desktop sizes used.
+h1,
+.h1 {
+  font-size: $h1-max * 1rem;
+}
+
+h2,
+.h2 {
+  font-size: #{$h2-max * 1rem};
+}
+
+h3,
+.h3 {
+  font-size: #{$h3-max * 1rem};
+}
+
+h4,
+.h4 {
+  font-size: #{$h4-max * 1rem};
+}
+
+h5,
+.h5,
+blockquote p,
+table caption,
+.u__lead {
+  font-size: #{$h5-max * 1rem};
+}
+
+h6,
+.h6 {
+  font-size: #{$h6-max * 1rem};
+}
+
+small,
+.small {
+  font-size: #{$base-sm * 1rem};
+}
+
+body,
+button,
+input,
+textarea {
+  font-size: #{$base-max * 1rem};
+}
+// End Fallbacks for older browsers
+
+
+// Flexible styles
+#{$all-headings},
+table caption,
+blockquote p,
+.u__lead,
+body {
+  // Body is a catch all for other block level elements
+  font-size: calc(var(--fs__min) * 1rem);
+
+  @include breakpoint-up('small') {
+    font-size: calc(
+      (var(--fs__min) * 1rem) + (var(--fs__max) - var(--fs__min)) * ((100vw - #{$min-vw * 1rem}) / #{$max-vw - $min-vw})
+    );
+  }
+
+  @include breakpoint-up('x-large') {
+    font-size: calc(var(--fs__max) * 1rem);
+  }
+}
+
+#{$all-headings} {
+  font-weight: normal;
+  line-height: $line-height__tight;
+}
+
+h1,
+.h1 {
+  color: palette(gray-700);
+  font-variation-settings: $font-custom__sans__light;
+}
+
+h2,
+.h2 {
+  font-variation-settings: $font-custom__sans__cond-light;
+}
+
+h3,
+.h3 {
+  color: palette(gray-700);
+  font-variation-settings: $font-custom__sans__cond-bold;
+}
+
+body,
+input,
+textarea {
+  line-height: $line-height__base;
+}
+
+small,
+.small {
+  font-size: calc(var(--fs__sm) * 1rem);
+  letter-spacing: ($kerning * 2);
+}
+
+strong,
+b {
+  font-variation-settings: $font-custom__sans__bold;
+}
+
+// Vertical rhythm
+.v-rhythm {
+  margin-bottom: $vertical-rhythm;
+  //background: linear-gradient(#c0c 0px, #fff 1px) repeat;
+  //background-size: 100% 27px;
+  //background-position: top 4px left 0;
+
+  > * + * {
+    margin-top: $vertical-rhythm;
+  }
+
+  h5 + p, .h5 + p, 
+  h6 + p, .h6 + p {
+    margin-top: 0;
+  }
+}
+
+
+// HTML elements
+
+blockquote {
+  quotes: none;
+  position: relative;
+
+  p {
+    font-style: italic;
+    padding-left: 1.375em;
+  }
+
+  p::before,
+  p:last-child::after {
+    //color: palette('brand-orange');
+    font-style: normal;
+    line-height: 1;
+  }
+
+  p::before {
+    content: "“";
+    font-size: 3.5em;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  p:last-child::after {
+    content: "”";
+    font-size: 2.5em;
+    display: inline;
+    line-height: 0;
+    margin-left: .0625em;
+    vertical-align: text-bottom;
+  }
+
+  & + .citation {
+    //color: palette(gray-500);
+    padding-bottom: $vertical-rhythm;
+    padding-left: 1.375em;
+  }
+}
+
+hr {
+  border: none;
+  height: 2em;
+  line-height: 1;
+  position: relative;
+  width: 100%;
+
+  &::after {
+    content: '';
+    position: absolute;
+    //border-top: 1px dotted palette('brand-teal');
+    top: 50%;
+    left: 0;
+    right: 0;
+  }
+}
+
+ul { list-style: square; }
+
+ul ul { list-style: disc; }
+
+ul ul ul { list-style: circle; }
+
+ol { list-style: decimal; }
+
+ol ol { list-style: upper-alpha; }
+
+ol ol ol { list-style: upper-roman; }
+
+ol ol ol ol { list-style: lower-alpha; }
+
+ol ol ol ol ol { list-style: lower-roman; }
+
+// The only DLs on the site are used for resumes
+dl {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+dt,
+dd {}
+
+dt {
+  padding-top: 0.5em;
+  width: 6ch;
+}
+
+dd {
+  padding-top: 0.5em;
+  width: calc(100% - 6ch);
+}
+
+// When one DT is used to label more than one DD
+dd + dd {
+  padding-top: 0;
+  margin-inline-start: 6ch;
+}
+
+//figure {}
+
+//table {
+//  width: 100%;
+//
+//  th {
+//    //border-bottom: 2px solid $table-border-color;
+//    //padding: $table-cell-padding;
+//    text-align: left;
+//  }
+//
+//  td {
+//    //border-top: 1px solid $table-border-color;
+//    //padding: $table-cell-padding;
+//  }
+//
+//  // zebra striping pattern
+//  tbody {
+//
+//    tr:nth-of-type(odd) {
+//      //background-color: $table-border-color;
+//    }
+//  }
+//}
+
+// Inline typography elements
+em,
+i,
+cite,
+small,
+sup,
+sup {
+  letter-spacing: $kerning;
+}
+
+//sub,
+//sup {
+//  font-size: 75%;
+//  line-height: 1;
+//  position: relative;
+//}
+//
+//sup {
+//  top: -0.5em;
+//}
+//
+//sub {
+//  bottom: -0.25em;
+//}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted currentColor;
+  cursor: help;
+}
+
+abbr[title],
+.abbr {
+  font-size: 75%;
+  //font-weight: $font-custom__serif__bd-weight;
+  letter-spacing: ($kerning * 2);
+  text-transform: uppercase;
+}
+
+dfn[title] {
+  font-style: normal;
+}
+
+//var {
+//  color: palette(mono, 75);
+//  display: inline-block;
+//  padding: 0 .125em;
+//}
+
+// Proper code blocks need to be surrounded by a <pre>. They work together.
+//pre {
+//  white-space: pre-wrap;
+//  word-wrap: break-word; // For IE 5.5+ and up
+//
+//  code {
+//    border-bottom: 1px solid palette(mono, 25);
+//    border-left: 5px solid $color-code;
+//    border-radius: 0;
+//    display: block;
+//    margin: 0;
+//    padding: 1.375em 1.25em 1.3125em;
+//  }
+//}
+
+//code,
+//kbd,
+//samp,
+//mark,
+//ins {
+//  display: inline-block;
+//  line-height: 1.5;
+//  padding: 0.125em 0.25em 0;
+//}
+
+//mark {
+//  background-color: palette('brand-yellow');
+//  display: inline-block;
+//  padding: 0.125em 0 0.0625em;
+//}
+
+//code,
+//kbd,
+//samp {
+//  background: rgba(#000, .05);
+//  //border-radius: $default-border-radius;
+//  box-shadow: 0 0 .25em rgba(#000, .1) inset;
+//  //font-family: $font-mono;
+//}
+//
+//code {
+//  //color: $color-code;
+//}
+//
+
+//strike,
+//s {
+//  //color: palette(mono, 25);
+//}
+//
+//del {
+//  //color: $color-error;
+//}
+//
+//ins {
+//  //background-color: palette(mono, 25);
+//  text-decoration: none;
+//}
+//
+//// These should change depending on the language
+//[lang="en-US"] {
+//
+//  q {
+//    display: inline;
+//
+//    ::before { content: "“"; }
+//
+//    ::after {
+//      content: "”";
+//      white-space: nowrap;
+//    }
+//
+//    // Nested
+//    q::before { content: "‘"; }
+//
+//    q::after { content: "’"; }
+//  }
+//}

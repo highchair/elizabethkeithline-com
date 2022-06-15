@@ -1,0 +1,27 @@
+//
+// Color system
+//
+
+$white: #fff;
+$black: #291F19;
+
+$colors: (
+  gray-700: #7A6D64,
+  'brand-cream': #FAF9F5,
+  'brand-blue': #4893B2,
+);
+
+// Color getter
+@function palette($color) {
+  @return map-get($colors, $color);
+}
+
+// Generic variables
+$color__body-fg: $black;
+$color__body-bg: palette('brand-cream');
+
+$color__link: $black;
+$color__link--hover: palette('brand-blue');
+$color__link-bg: rgba($black, 0.1);
+$color__link--active: palette('brand-blue');
+$color__borders: palette(gray-700);

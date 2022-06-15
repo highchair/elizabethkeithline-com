@@ -1,0 +1,28 @@
+body {
+  position: relative;
+
+  &::before,
+  > footer::before {
+    content: '';
+    height: 100vw;
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    z-index: -1;
+  }
+
+  &::before {
+    background: radial-gradient(circle at center center, $white 0%, $color__body-bg 60%);
+    top: -45vw;
+  }
+
+  > footer {
+    position: relative;
+    
+    &::before {
+      background: radial-gradient(circle at center bottom, $white 0%, $color__body-bg 60%);
+      height: 50vw;
+      top: -50vw;
+    }
+  }
+}
