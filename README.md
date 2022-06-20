@@ -7,7 +7,7 @@ Initialized with a fresh OSX install. Followed [these intructions](https://stack
 
 I ended up paying for Ruby On Mac and it worked immediately. When I followed the instructions myself I could not get ZSH to use the Homebrew installed Ruby. 
 
-Check your Ruby environemnt. It should be something other than the default Ruby installed by Mac OS. 
+Check your Ruby environment. It should be something other than the default Ruby installed by Mac OS. 
 
 + `which ruby` should show a path other than the default Mac OSX path of `/usr/bin/ruby`
 + `ruby -v` should be a version newer than 2.6.1, preferably the newest version 3.1.0. 

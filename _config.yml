@@ -16,10 +16,12 @@
 
 title: Elizabeth Keithline
 description: Personal portfolio of sculpture, painting, and gallery curation
+instagram: "https://www.instagram.com/elizabethkeithline"
+
 github_username: jhogue
 github_repo: "https://github.com/highchair/elizabethkeithline-com"
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/newsite/" # the subpath of your site, e.g. /blog
 port: 5060
 url: "http://127.0.0.1:5060" # the base hostname & protocol for your site, e.g. http://example.com
 prod_url: "http://elizabethkeithline.com"
@@ -29,6 +31,7 @@ destination: _site/
 markdown: kramdown
 highlighter: rouge
 kramdown:
+  parse_block_html: true
   input: GFM 
   syntax_highlighter: rouge
 
@@ -38,10 +41,13 @@ permalink: /:categories/:title/
 relative_permalinks: false
 image_path: "assets/img/"
 
-#collections:
-#  property:
-#    output: true
-#    permalink: /property/:name/
+collections:
+  sculpture:
+    output: true
+    permalink: /sculpture/:name/
+  painting:
+    output: true
+    permalink: /painting/:name/
 
 sass:
   sass_dir: _sass
