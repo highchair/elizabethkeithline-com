@@ -11,7 +11,6 @@
 //       <li class="n__social"><a href="#">Instagram</a></li>
 //     </ul>
 
-
 $nav-v-padding: 0.75rem;
 $nav-h-padding: 0.5rem;
 
@@ -20,7 +19,7 @@ $nav-h-padding: 0.5rem;
   padding: 0.5rem 0;
   text-decoration: none;
   white-space: nowrap;
-  
+
   // Bottom/Footer
   footer & {
     text-align: center;
@@ -29,20 +28,36 @@ $nav-h-padding: 0.5rem;
 
 .n {
   text-align: center;
-  
+
   // Any link
   a {
     padding: $nav-v-padding $nav-h-padding;
+
+    @include breakpoint-up(large) {
+      padding: 1.25rem 1.5rem
+    }
   }
-  
+
   li > a {
     background-color: transparent;
-    
+
     @include hover-focus() {
       background-color: $color__link-bg;
     }
+
+    @include breakpoint-up($mobile-to-desktop-nav) {
+      @include hover-focus() {
+        background-color: $white;
+      }
+    }
+
+    &[aria-current="page"] {
+      background-color: $white;
+      color: palette('gray-700');
+      cursor: default;
+    }
   }
-  
+
   // Button
   &__toggler {
     @include button-reset();
@@ -53,20 +68,20 @@ $nav-h-padding: 0.5rem;
     @include hover-focus() {
       background-color: $color__link-bg;
     }
-    
+
     &[aria-expanded=true],
     &:active {
       background-color: $color__body-fg;
       color: $color__body-bg;
     }
-    
+
     // Swap icons
     &[aria-expanded=false] {
       .close {
         @include hide;
       }
     }
-    
+
     &[aria-expanded=true] {
       .navicon {
         @include hide;
@@ -75,17 +90,17 @@ $nav-h-padding: 0.5rem;
         @include show(inline);
       }
     }
-    
+
     &__label {
       white-space: nowrap;
     }
-    
+
     // Breakpoint
     @include breakpoint-up($mobile-to-desktop-nav) {
       @include hide;
     }
   }
-  
+
   // social
   &__social {
 
@@ -117,20 +132,18 @@ $nav-h-padding: 0.5rem;
       padding: $nav-v-padding 0 $nav-v-padding ($nav-h-padding * 2);
     }
   }
-  
+
   // Top header
-  &--top {
-    //margin-inline-start: auto;
-  }
-  
+  &--top {}
+
   // Bottom/Footer nav modifier
   &--bottom {
-    
+
     a {
       text-align: center;
     }
   }
-  
+
   // Both need to go horizontal
   // Breakpoint
   @include breakpoint-up($mobile-to-desktop-nav) {
@@ -139,12 +152,12 @@ $nav-h-padding: 0.5rem;
       box-shadow: none !important;
       padding-bottom: 0 !important;
       position: static !important;
-      
+
       // Negate rules from the .aria-expand class
       opacity: 1 !important;
       max-height: unset !important;
       visibility: visible !important;
-      
+
       // Now style the element for horizontal orientation
       display: flex;
       flex-flow: row nowrap;
@@ -164,7 +177,7 @@ $nav-h-padding: 0.5rem;
   left: 0;
   width: 100%;
   z-index: z(mainmenu);
-  
+
   li {
     @include breakpoint-down($mobile-to-desktop-nav) {
       padding-top: $nav-v-padding;

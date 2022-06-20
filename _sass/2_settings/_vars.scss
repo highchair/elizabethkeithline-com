@@ -6,9 +6,9 @@ $all-headings: "h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6";
 // Spacing
 // Assumed REMs
 $gutter-min: 1;
-$gutter-max: 3;
-$vertical-min: 2;
-$vertical-max: 4;
+$gutter-max: 2;
+$vertical-min: 1.5;
+$vertical-max: 3;
 
 $spacing__min-vw: (bp(small)/16);
 $spacing__max-vw: (bp(x-large)/16);

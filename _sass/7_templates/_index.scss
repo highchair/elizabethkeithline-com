@@ -1,3 +1,8 @@
 // Templates
 
-//@import 'page';
+@import 'layout';
+@import 'grid';
+
+// Pages
+@import 'home';
+@import 'portfolio';

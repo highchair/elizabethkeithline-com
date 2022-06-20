@@ -1,0 +1,113 @@
+$grid-col-gap-sm: 1rem;
+$grid-col-gap-lg: 2rem;
+
+.g {
+  // Row settings
+  display: flex;
+  align-items: stretch;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-inline-start: #{0 - ($grid-col-gap-sm / 2)};
+  margin-inline-end: #{0 - ($grid-col-gap-sm / 2)};
+
+  @include breakpoint-up(large) {
+    margin-inline-start: #{0 - ($grid-col-gap-lg / 2)};
+    margin-inline-end: #{0 - ($grid-col-gap-lg / 2)};
+  }
+
+  // All nested columns
+  //> [class^="gc"] 
+  > div {
+    min-height: 1px;
+    padding-inline-start: ($grid-col-gap-sm / 2);
+    padding-inline-end: ($grid-col-gap-sm / 2);
+    padding-bottom: $grid-col-gap-sm;
+    width: 100%;
+
+    @include breakpoint-up(large) {
+      padding-inline-start: ($grid-col-gap-lg / 2);
+      padding-inline-end: ($grid-col-gap-lg / 2);
+      padding-bottom: $grid-col-gap-lg;
+    }
+  }
+
+  // Columns without a width. Flex makes them all fill whatever is available
+  #{&}c {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+  }
+
+  #{&}c--sm {
+    @include breakpoint-up(small) {
+      flex-grow: 1;
+      flex-basis: 0;
+      max-width: 100%;
+    }
+  }
+
+  #{&}c--md {
+    @include breakpoint-up(medium) {
+      flex-grow: 1;
+      flex-basis: 0;
+      max-width: 100%;
+      
+      // &--auto {
+      //   flex: 1 0 auto !important;
+      //   width: auto;
+      //   max-width: none;
+      // }
+    }
+  }
+
+  #{&}c--lg {
+    @include breakpoint-up(large) {
+      flex-grow: 1;
+      flex-basis: 0;
+      max-width: 100%;
+    }
+  }
+
+  #{&}c--xl {
+    @include breakpoint-up(x-large) {
+      flex-grow: 1;
+      flex-basis: 0;
+      max-width: 100%;
+    }
+  }
+
+  @each $short, $bp in $breakpoint-list {
+    @if $bp != none {
+      @include breakpoint-up($bp) {
+        @for $i from 1 through 12 {
+          #{&}c#{$short}--#{$i} {
+            flex: 0 0 #{$i/12 * 100%};
+          }
+          #{&}c__push#{$short}--#{$i} {
+            margin-inline-start: #{$i/12 * 100%};
+          }
+          #{&}c__pull#{$short}--#{$i} {
+            margin-inline-end: #{$i/12 * 100%};
+          }
+        }
+      }
+    } @else {
+      @for $i from 1 through 12 {
+        #{&}c--#{$i} {
+          flex: 0 0 #{$i/12 * 100%};
+        }
+        #{&}c__push--#{$i} {
+          margin-inline-start: #{$i/12 * 100%};
+        }
+        #{&}c__pull--#{$i} {
+          margin-inline-end: #{$i/12 * 100%};
+        }
+      }
+    }
+  }
+}
+
+// Flex utilities
+.align-items--end {
+  align-items: end
+}

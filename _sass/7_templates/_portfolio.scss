@@ -1,0 +1,27 @@
+/*body*/ .page {
+
+  // Landing page
+  &--portfolio {
+    .g > [class^="gc"] {
+      padding-top: ($vertical-rhythm * 2);
+      padding-bottom: ($vertical-rhythm * 2);
+    }
+
+    // Landing page uses H2
+    h2 {
+      padding: ($vertical-rhythm/4) 0 ($vertical-rhythm/2);
+    }
+  }
+
+  &--portfolio-item {
+    .g {
+      padding-bottom: $vertical-rhythm;
+    }
+  }
+}
+
+.item__footer {
+  border-top: 0.5px solid $color__borders;
+  padding-top: $vertical-rhythm;
+  margin-top: $vertical-rhythm;
+}

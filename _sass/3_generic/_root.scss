@@ -21,7 +21,8 @@ $h6-min: (18 / 16);
 $h6-max: (20 / 16);
 
 h6,
-.h6 {
+.h6,
+.u__lead {
   --fs__min: #{$h6-min};
   --fs__max: #{$h6-max};
 }

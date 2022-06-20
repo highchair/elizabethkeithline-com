@@ -1,15 +1,20 @@
 .btn {
   @include button-reset; // in case this is an actual button element
-  background-color: transparent;
-  border-bottom: 2px solid palette(gray-700);
+  background: right bottom no-repeat linear-gradient(to right, $color__link--hover 50%, palette(gray-700) 0) transparent;
+  background-size: 200% 2px;
   cursor: pointer;
   display: inline-block;
+  font-variation-settings: $font-custom__sans__cond-bold;
   line-height: 1;
-  padding: 0.625rem 0;
+  padding: 0 0 .375rem;
   text-decoration: none;
-  transition: $transition;
+  transition: 
+    background-position 750ms ease-in-out,
+    color 250ms ease-in-out,
+    transform 250ms ease-in-out;
 
   @include hover-focus() {
+    background-position: left bottom;
     color: $color__link--hover;
     transform: translate(2px, 2px);
   }

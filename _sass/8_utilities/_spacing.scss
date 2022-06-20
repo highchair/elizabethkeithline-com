@@ -22,7 +22,7 @@
   @include fluid-units('margin-inline-end', $gutter-min, $gutter-max, $min-vw, $max-vw);
 }
 
-// Classes
+// Classes for left and right (start and end)
 .u__gutter__p {
   @extend %fluid-gutter-p;
   
@@ -98,7 +98,7 @@
   );
 }
 
-// Classes
+// Classes for top and bottom
 .u__vertical__p {
   @extend %fluid-vertical-p;
   
@@ -119,5 +119,70 @@
   
   &b {
     @extend %fluid-vertical-mb;
+  }
+}
+
+// Zero out Spacing
+.u__p {
+  &t--0, &x--0 { padding-top: 0 !important; }
+  &b--0, &x--0 { padding-bottom: 0 !important; }
+  &s--0, &y--0 { padding-inline-start: 0 !important; }
+  &e--0, &y--0 { padding-inline-end: 0 !important; }
+
+  @include breakpoint-up(small) {
+    &t--sm--0, &x--sm--0 { padding-top: 0 !important; }
+    &b--sm--0, &x--sm--0 { padding-bottom: 0 !important; }
+    &s--sm--0, &y--sm--0 { padding-inline-start: 0 !important; }
+    &e--sm--0, &y--sm--0 { padding-inline-end: 0 !important; }
+  }
+  @include breakpoint-up(medium) {
+    &t--md--0, &x--md--0 { padding-top: 0 !important; }
+    &b--md--0, &x--md--0 { padding-bottom: 0 !important; }
+    &s--md--0, &y--md--0 { padding-inline-start: 0 !important; }
+    &e--md--0, &y--md--0 { padding-inline-end: 0 !important; }
+  }
+  @include breakpoint-up(large) {
+    &t--lg--0, &x--lg--0 { padding-top: 0 !important; }
+    &b--lg--0, &x--lg--0 { padding-bottom: 0 !important; }
+    &s--lg--0, &y--lg--0 { padding-inline-start: 0 !important; }
+    &e--lg--0, &y--lg--0 { padding-inline-end: 0 !important; }
+  }
+  @include breakpoint-up(x-large) {
+    &t--xl--0, &x--xl--0 { padding-top: 0 !important; }
+    &b--xl--0, &x--xl--0 { padding-bottom: 0 !important; }
+    &s--xl--0, &y--xl--0 { padding-inline-start: 0 !important; }
+    &e--xl--0, &y--xl--0 { padding-inline-end: 0 !important; }
+  }
+}
+
+.u__m {
+  &t--0, &x--0 { margin-top: 0 !important; }
+  &b--0, &x--0 { margin-bottom: 0 !important; }
+  &s--0, &y--0 { margin-inline-start: 0 !important; }
+  &e--0, &y--0 { margin-inline-end: 0 !important; }
+
+  @include breakpoint-up(small) {
+    &t--sm--0, &x--sm--0 { margin-top: 0 !important; }
+    &b--sm--0, &x--sm--0 { margin-bottom: 0 !important; }
+    &s--sm--0, &y--sm--0 { margin-inline-start: 0 !important; }
+    &e--sm--0, &y--sm--0 { margin-inline-end: 0 !important; }
+  }
+  @include breakpoint-up(medium) {
+    &t--md--0, &x--md--0 { margin-top: 0 !important; }
+    &b--md--0, &x--md--0 { margin-bottom: 0 !important; }
+    &s--md--0, &y--md--0 { margin-inline-start: 0 !important; }
+    &e--md--0, &y--md--0 { margin-inline-end: 0 !important; }
+  }
+  @include breakpoint-up(large) {
+    &t--lg--0, &x--lg--0 { margin-top: 0 !important; }
+    &b--lg--0, &x--lg--0 { margin-bottom: 0 !important; }
+    &s--lg--0, &y--lg--0 { margin-inline-start: 0 !important; }
+    &e--lg--0, &y--lg--0 { margin-inline-end: 0 !important; }
+  }
+  @include breakpoint-up(x-large) {
+    &t--xl--0, &x--xl--0 { margin-top: 0 !important; }
+    &b--xl--0, &x--xl--0 { margin-bottom: 0 !important; }
+    &s--xl--0, &y--xl--0 { margin-inline-start: 0 !important; }
+    &e--xl--0, &y--xl--0 { margin-inline-end: 0 !important; }
   }
 }

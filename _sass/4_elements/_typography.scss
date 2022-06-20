@@ -32,7 +32,8 @@ table caption,
 }
 
 h6,
-.h6 {
+.h6,
+.u__lead {
   font-size: #{$h6-max * 1rem};
 }
 
@@ -109,15 +110,22 @@ b {
   font-variation-settings: $font-custom__sans__bold;
 }
 
+.u__rhythm {
+  margin-bottom: $vertical-rhythm;
+}
+
 // Vertical rhythm
 .v-rhythm {
-  margin-bottom: $vertical-rhythm;
   //background: linear-gradient(#c0c 0px, #fff 1px) repeat;
   //background-size: 100% 27px;
   //background-position: top 4px left 0;
 
   > * + * {
     margin-top: $vertical-rhythm;
+  }
+  
+  > .u__sr-only + * {
+    margin-top: 0;
   }
 
   h5 + p, .h5 + p, 
@@ -211,20 +219,38 @@ dl {
 dt,
 dd {}
 
+$dd-indent: 6ch;
+
 dt {
   padding-top: 0.5em;
-  width: 6ch;
+  width: $dd-indent;
 }
 
 dd {
   padding-top: 0.5em;
-  width: calc(100% - 6ch);
+  width: calc(100% - #{$dd-indent});
 }
 
 // When one DT is used to label more than one DD
 dd + dd {
   padding-top: 0;
-  margin-inline-start: 6ch;
+  margin-inline-start: $dd-indent;
+}
+
+@include breakpoint-up(large) {
+  $dd-indent: 8ch;
+
+  dt {
+    width: $dd-indent;
+  }
+
+  dd {
+    width: calc(100% - #{$dd-indent});
+  }
+
+  dd + dd {
+    margin-inline-start: $dd-indent;
+  }
 }
 
 //figure {}
@@ -284,8 +310,8 @@ dfn[title] {
 }
 
 abbr[title],
-.abbr {
-  font-size: 75%;
+.u__abbr {
+  font-size: 87.5%;
   //font-weight: $font-custom__serif__bd-weight;
   letter-spacing: ($kerning * 2);
   text-transform: uppercase;

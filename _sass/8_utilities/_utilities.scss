@@ -1,16 +1,21 @@
 // Utilities
 .u {
-  
+
   //Screen Reader
   // A mixin but also a utility class
   &__sr-only {
     @include sr-only;
   }
-  
+
   &__sr-only--focusable {
     @include sr-only-focusable;
   }
-  
+
+  // When JS does not load
+  .no-js &__no-js {
+    @include hide;
+  }
+
   // Max width
   // &__max-width {
   //   &--text {
@@ -18,7 +23,7 @@
   //     max-width: $max-width__text;
   //   }
   // }
-  
+
   // Lists
   &__list {
     &__unstyled {
@@ -26,14 +31,14 @@
       margin-left: 0;
     }
   }
-  
+
   // Inline anything
   // &__inline {
   //   display: inline !important;
   // }
-  
+
   // Text
-  // &__text {
+  &__text {
   //   &__small {
   //     font-size: calc(var(--fs__sm) * 1rem);
   //     letter-spacing: ($kerning * 2);
@@ -52,12 +57,39 @@
   //     text-transform: uppercase;
   //   }
   // 
-  //   // Text alignment
-  //   &__center {
-  //     text-align: center;
-  //   }
-  // }
-  
+
+    // Text alignment
+    @each $short, $bp in $breakpoint-list {
+      @if $bp != none {
+        @include breakpoint-up($bp) {
+          &__left#{$short} {
+            text-align: left;
+          }
+
+          &__center#{$short} {
+            text-align: center;
+          }
+
+          &__right#{$short} {
+            text-align: right;
+          }
+        }
+      } @else {
+        &__left {
+          text-align: left;
+        }
+
+        &__center {
+          text-align: center;
+        }
+
+        &__right {
+          text-align: right;
+        }
+      }
+    }
+  }
+
   // Images
   // &__img {
   //   
@@ -87,31 +119,16 @@
   //     }
   //   }
   // }
-  
+
   // Colors
   // &__color {
   //   &__primary {
   //     color: palette('brand-teal');
   //   }
   // }
-  
+
   // Background colors
   // &__bg__light {
   //   background-color: rgba(palette('brand-yellow'), .5);
   // }
-  
-  // Zero out Spacing
-  &__p {
-    &t--0, &x--0 { padding-top: 0 !important; }
-    &b--0, &x--0 { padding-bottom: 0 !important; }
-    &l--0, &y--0 { padding-left: 0 !important; }
-    &r--0, &y--0 { padding-right: 0 !important; }
-  }
-  
-  &__m {
-    &t--0, &x--0 { margin-top: 0 !important; }
-    &b--0, &x--0 { margin-bottom: 0 !important; }
-    &l--0, &y--0 { margin-left: 0 !important; }
-    &r--0, &y--0 { margin-right: 0 !important; }
-  }
 }

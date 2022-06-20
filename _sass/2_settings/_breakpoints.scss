@@ -26,6 +26,23 @@ $breakpoints: (
   }
 }
 
+// List for looping over breakpoints
+// How to use:
+// @each $short, $bp in $breakpoint-list {
+//   @if $bp != none {
+//     @include breakpoint-up($bp) {
+//       &__class#{$short} {
+//         property: setting;
+//       }
+//     }
+//   } @else {
+//     &__class {
+//       property: setting;
+//     }
+//   }
+// }
+$breakpoint-list: ('': none, '--sm': small, '--md': medium, '--lg': large, '--xl': x-large);
+
 // Global shared breakpoints
 $mobile-to-desktop-nav: medium;
 

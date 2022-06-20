@@ -1,0 +1,48 @@
+// Expected to use this alongside the ".g" grid class
+// therefore, most of this is resets to get back to the default flex behavior
+
+@each $short, $bp in $breakpoint-list {
+  @if $bp != none {
+    @include breakpoint-up($bp) {
+      .equalize#{$short} {
+        display: flex;
+        align-items: unset !important;
+        justify-content: unset !important;
+        flex-wrap: unset !important;
+
+        &__wrap {
+          flex: unset !important;
+          max-width: unset !important;
+          width: auto !important;
+        }
+
+        img {
+          object-fit: cover;
+          max-width: 100%;
+          height: 100%;
+          position: relative;
+        }
+      }
+    }
+  } @else {
+    .equalize {
+      display: flex;
+      align-items: unset !important;
+      justify-content: unset !important;
+      flex-wrap: unset !important;
+
+      &__wrap {
+        flex: unset !important;
+        max-width: unset !important;
+        width: auto !important;
+      }
+
+      img {
+        object-fit: cover;
+        max-width: 100%;
+        height: 100%;
+        position: relative;
+      }
+    }
+  }
+}
