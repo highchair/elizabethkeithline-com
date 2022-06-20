@@ -1,6 +1,70 @@
 ---
 layout: default
+title: Welcome to the Portfolio of
+description: 
 permalink: /
+body-class: home
 ---
 
-Hello World
+<h1 class="u__sr-only">Elizabeth Keithline</h1>
+{%- assign recenturl = '#' -%}
+
+<section class="g u__vertical__pt">
+  <div class="gc--md">
+    <h2 class="u__text__center u__text__left--md">Recent Work</h2>
+  </div>
+  <div class="gc--md">
+    <h3 class="u__text__center u__text__right--md"><a href="{{ recenturl }}">Shadow Paintings</a></h3>
+  </div>
+</section>
+
+<section class="g u__vertical__pb g--nowrap--md home__grid">
+  <div class="gc--6 gc--md--auto painting-1">
+    <a href="{{ recenturl }}" class="ar" style="aspect-ratio: 4 / 5">
+      {% include picture.html filepath='assets/paintings/shadow-painting-01' alt="Shadow Painting 1" %}
+    </a>
+  </div>
+  <div class="gc--6 gc--md--auto painting-2">
+    <a href="{{ recenturl }}" class="ar" style="aspect-ratio: 4 / 5">
+      {% include picture.html filepath='assets/paintings/shadow-painting-02' alt="Shadow Painting 2" %}
+    </a>
+  </div>
+  <div class="gc--12 gc--md--auto painting-3">
+    <a href="{{ recenturl }}" class="ar" style="aspect-ratio: 5 / 4">
+      {% include picture.html filepath='assets/paintings/shadow-painting-03' alt="Shadow Painting 3" %}
+    </a>
+  </div>
+</section>
+
+<section class="g u__vertical__p">
+  <div class="gc--md--3">
+    <h2 class="u__text__center u__text__left--md">About</h2>
+  </div>
+  <div class="gc--md--9">
+    <p class="u__rhythm u__text__center u__text__left--md">Elizabeth Keithline’s work focuses on human self-extension in many forms. A weaver since the age of 14, in 1996 she invented a sculpture technique called “Lost Box.” She weaves wire around objects, then burns them out or peels them off, creating a wire memory.</p>
+    <p class="u__text__center u__text__left--md"><a class="btn" href="{% link about.md %}#readmore">More about Elizabeth — Statement & Resumes</a></p>
+  </div>
+</section>
+
+<section class="g u__vertical__p">
+  <div class="gc--md--3">
+    <h2 class="u__text__center u__text__left--md">News</h2>
+  </div>
+  <div class="gc--md--9">
+    <p class="u__rhythm u__text__center u__text__left--md"><strong>Interview on WKZE Radio 98.1 FM</strong> — Listen to Liz talk to WKZE radio hosts about the new Shadow Paintings show going in at 11 Jane Street. </p>
+    <audio controls src="{% link assets/media/ELIZABETH-KEITHLINE-phone-interview-08-24-21.mp3 %}">
+      <p>We’re sorry, your browser does not support the <code>audio</code> element. You may download this file and play it on your computer with a native audio player application that supports the MP3 file format.</p>
+    </audio>
+  </div>
+</section>
+
+<section class="g u__vertical__pt u__no-js">
+  <div class="gc--lg--3">
+    <h2 class="u__text__center u__text__left--md">Instagram</h2>
+    <p class="h4 u__text__center u__text__left--md"><a href="{{ site.instagram }}" target="_blank" title="Opens in a new window" rel="noopener noreferrer">@elizabethkeithline</a></p>
+  </div>
+  <div class="gc--lg--9">
+    <div data-behold-id="ZBWyvrHKvcFFsbusKx8p"></div>
+  </div>
+</section>
+<script src="https://w.behold.so/widget.js" type="module"></script>
