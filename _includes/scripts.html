@@ -1,2 +1,2 @@
-{% comment %} If cachebusting is needed: ?bust={{ 'now' | date: '%Y%m%d%H%M%S' }} {% endcomment %} 
-    <script defer src="/assets/js/global.js"></script>
+{%- comment -%} If cachebusting is needed: ?bust={{ 'now' | date: '%Y%m%d%H%M%S' }} {%- endcomment -%} 
+    <script defer src="{% link assets/js/global.js %}"></script>
