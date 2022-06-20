@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: text
+width: text
 title: About
 description: 'Elizabeth Keithline’s work focuses on human self-extension in many forms. A weaver since the age of 14, she invented a  technique called “Lost Box” where wire is woven around objects and the the object is burned out, creating a wire memory.'
-permalink: /about/
+permalink: about/
 body-class: about
 ---
 
@@ -11,7 +12,7 @@ body-class: about
 Elizabeth Keithline’s work focuses on human self-extension in many forms. A weaver since the age of 14, in 1996 she invented a sculpture technique called “Lost Box.” She weaves wire around objects, then burns them out or peels them off, creating a wire memory.
 {:.u__lead}
 
-<div class="u__infobox" markdown="1">
+<div id="readmore" class="u__infobox" markdown="1">
 ## Wheel Arts Administration
 {:.h3}
 
