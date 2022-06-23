@@ -90,6 +90,9 @@ Elizabeth Keithline
 
 ### Selected Group Exhibitions
 
+2021
+: _OMG Art Fair_, Kingston, NY
+
 2020
 : _Telephone_, Worldwide, Curator Nathan Langston
 : _USPSartproject.org_, Worldwide, Organized by Christina Massey
@@ -199,7 +202,8 @@ Saunderstown Weaving School, 1996
 
 ## Selected Bibliography
 
-+ “Elizabeth Keithline at 11 Jane Street Art Center,” **WKZE Radio**, 98.1; August 2021
++ “Elizabeth Keithline at 11 Jane Street Art Center,” **WKZE Radio** 98.1, August 2021
++ “Making The Leap Into Public Art,” Elysian McNiff, **Art Work Archive**, January 2020
 + “Challenging Stereotypes: Raquel Paiewonsky In New Bedford,” Ron Fortier, **ArtScope**, September 2019
 + “Six Massachusetts Museums That Are Great For Sculpture,” Tim Haas, **WGBH**, August 2019
 + “Wind-Themed Projects On Display At Umass Dartmouth Star Store Campus,” **Southcoast Today**, June 2019

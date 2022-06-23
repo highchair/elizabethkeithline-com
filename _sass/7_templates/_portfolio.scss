@@ -24,4 +24,26 @@
   border-top: 0.5px solid $color__borders;
   padding-top: $vertical-rhythm;
   margin-top: $vertical-rhythm;
+
+  nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    li {
+      display: flex;
+
+      &::after {
+        content: ',';
+        display: inline;
+        margin-inline-end: 0.5em;
+        white-space: nowrap;
+      }
+
+      &:last-child::after {
+        content: '';
+      }
+    }
+  }
 }
