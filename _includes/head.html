@@ -10,6 +10,9 @@
 {%- if page.description -%}
   {%- assign meta_description = page.description -%}
 {%- endif -%}
+{%- if page.meta-image -%}
+  {%- assign meta_image = page.meta-image -%}
+{%- endif -%}
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,9 +21,10 @@
 
     <title>{{ meta_title }}</title>
     <meta property="og:site_name" content="{{ site.title }}">
-    <meta name="description" content="{{ meta_description | strip_html | truncate: 140 }}">
+    <meta name="description" content="{{ meta_description }}">
     <meta property="og:title" content="{{ meta_title }}">
-    <meta property="og:description" content="{{ meta_description | strip_html | truncate: 140 }}">
+    <meta property="og:description" content="{{ meta_description }}">
+    <meta property="og:image" content="{{ site.prod_url }}{{ meta_image }}">
 
     <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wdth,wght@84,300;84,540;100,200;100,342;100,540&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="{% link assets/css/main.scss %}?cb={{ 'now' | date: '%Y%m%f-%H%M' }}">
