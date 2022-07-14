@@ -137,45 +137,45 @@ b {
 
 // HTML elements
 
-blockquote {
-  quotes: none;
-  position: relative;
-
-  p {
-    font-style: italic;
-    padding-left: 1.375em;
-  }
-
-  p::before,
-  p:last-child::after {
-    //color: palette('brand-orange');
-    font-style: normal;
-    line-height: 1;
-  }
-
-  p::before {
-    content: "“";
-    font-size: 3.5em;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
-  p:last-child::after {
-    content: "”";
-    font-size: 2.5em;
-    display: inline;
-    line-height: 0;
-    margin-left: .0625em;
-    vertical-align: text-bottom;
-  }
-
-  & + .citation {
-    //color: palette(gray-500);
-    padding-bottom: $vertical-rhythm;
-    padding-left: 1.375em;
-  }
-}
+// blockquote {
+//   quotes: none;
+//   position: relative;
+// 
+//   p {
+//     font-style: italic;
+//     padding-left: 1.375em;
+//   }
+// 
+//   p::before,
+//   p:last-child::after {
+//     //color: palette('brand-orange');
+//     font-style: normal;
+//     line-height: 1;
+//   }
+// 
+//   p::before {
+//     content: "“";
+//     font-size: 3.5em;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//   }
+// 
+//   p:last-child::after {
+//     content: "”";
+//     font-size: 2.5em;
+//     display: inline;
+//     line-height: 0;
+//     margin-left: .0625em;
+//     vertical-align: text-bottom;
+//   }
+// 
+//   & + .citation {
+//     //color: palette(gray-500);
+//     padding-bottom: $vertical-rhythm;
+//     padding-left: 1.375em;
+//   }
+// }
 
 hr {
   border: none;
@@ -238,7 +238,7 @@ dd + dd {
 }
 
 @include breakpoint-up(large) {
-  $dd-indent: 8ch;
+  $dd-indent: 10ch;
 
   dt {
     width: $dd-indent;
