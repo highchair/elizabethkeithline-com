@@ -1,0 +1,28 @@
+.wheel {
+
+  a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+
+  a img {
+    transform: scale(1,1);
+    transition: $transition;
+  }
+
+  a:hover img,
+  a:focus img {
+    transform: scale(1.05, 1.05);
+    transform-origin: center bottom;
+    transition: $transition;
+  }
+
+  &:hover a:not(:hover) img {
+    opacity: .65;
+  }
+
+  h3 {
+    margin-top: 0.5rem;
+  }
+}

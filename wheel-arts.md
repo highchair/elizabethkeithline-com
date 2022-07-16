@@ -12,6 +12,49 @@ body-class: wheel
 Keithline was an independent curator and exhibition designer from 2004–2020 under the name Wheel Arts Administration. She is currently the Exhibitions Director for the Woodstock Artists Association and Museum and is not taking on new clients.
 {:id="wheel-resume"}
 
+## Selected Project Archive
+{:id="projects"}
+
+<section aria-describedby="projects" class="g wheel" markdown="0">
+  <div class="gc--sm--6 gc--lg--4">
+    <a href="#">
+      <img src="{% link assets/wheel/simile-metaphor-red-necklace.jpg %}" alt="" />
+      <h3 class="h5">Simile + Metaphor: Red Necklace</h3>
+    </a>
+  </div>
+  <div class="gc--sm--6 gc--lg--4">
+    <a href="#">
+      <img src="{% link assets/wheel/fiber-paper-love.jpg %}" alt="" />
+      <h3 class="h5">Fiber/Paper/Love</h3>
+    </a>
+  </div>
+  <div class="gc--sm--6 gc--lg--4">
+    <a href="#">
+      <img src="{% link assets/wheel/wheaton-resonance-harlow.jpg %}" alt="" />
+      <h3 class="h5">Lynne Harlow Resonance</h3>
+    </a>
+  </div>
+  <div class="gc--sm--6 gc--lg--4">
+    <a href="#">
+      <img src="{% link assets/wheel/working-objects-macdonald.jpg %}" alt="" />
+      <h3 class="h5">Working Objects: Props by Ross MacDonald</h3>
+    </a>
+  </div>
+  <div class="gc--sm--6 gc--lg--4">
+    <a href="#">
+      <img src="{% link assets/wheel/atkins-grand-budapest-hotel.jpg %}" alt="" />
+      <h3 class="h5">Props & Fine Art From Movies, Television and Theatre</h3>
+    </a>
+  </div>
+  <div class="gc--sm--6 gc--lg--4">
+    <a href="#">
+      <img src="{% link assets/wheel/wheaton-alums-color.jpg %}" alt="" />
+      <h3 class="h5">Alumni of Color Exhibition</h3>
+    </a>
+  </div>
+</section>
+
+
 ## Gallery/Independent Curator/Exhibition Design
 
 2018
