@@ -17,7 +17,7 @@ Keithline was an independent curator and exhibition designer from 2004–2020 un
 
 <section aria-describedby="projects" class="g wheel" markdown="0">
   <div class="gc--sm--6 gc--lg--4">
-    <a href="#">
+    <a href="{% link wheel-arts/simile-metaphor-barbara-owens.html %}">
       <img src="{% link assets/wheel/simile-metaphor-red-necklace.jpg %}" alt="" />
       <h3 class="h5">Simile + Metaphor: Red Necklace</h3>
     </a>
