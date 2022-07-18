@@ -23,15 +23,15 @@ Keithline was an independent curator and exhibition designer from 2004–2020 un
     </a>
   </div>
   <div class="gc--sm--6 gc--lg--4">
-    <a href="#">
+    <a href="{% link wheel-arts/fiber-paper-love.html %}">
       <img src="{% link assets/wheel/fiber-paper-love.jpg %}" alt="" />
       <h3 class="h5">Fiber/Paper/Love</h3>
     </a>
   </div>
   <div class="gc--sm--6 gc--lg--4">
-    <a href="#">
+    <a href="{% link wheel-arts/lynne-harlow-resonance.html %}">
       <img src="{% link assets/wheel/wheaton-resonance-harlow.jpg %}" alt="" />
-      <h3 class="h5">Lynne Harlow Resonance</h3>
+      <h3 class="h5">Lynne Harlow’s “Resonance”</h3>
     </a>
   </div>
   <div class="gc--sm--6 gc--lg--4">
