@@ -35,19 +35,19 @@ Keithline was an independent curator and exhibition designer from 2004–2020 un
     </a>
   </div>
   <div class="gc--sm--6 gc--lg--4">
-    <a href="#">
+    <a href="{% link wheel-arts/macdonald-working-objects.html %}">
       <img src="{% link assets/wheel/working-objects-macdonald.jpg %}" alt="" />
       <h3 class="h5">Working Objects: Props by Ross MacDonald</h3>
     </a>
   </div>
   <div class="gc--sm--6 gc--lg--4">
-    <a href="#">
+    <a href="{% link wheel-arts/props-fine-art-movies-television.html %}">
       <img src="{% link assets/wheel/atkins-grand-budapest-hotel.jpg %}" alt="" />
-      <h3 class="h5">Props & Fine Art From Movies, Television and Theatre</h3>
+      <h3 class="h5">Props & Fine Art From Movies, Television, & Theatre</h3>
     </a>
   </div>
   <div class="gc--sm--6 gc--lg--4">
-    <a href="#">
+    <a href="{% link wheel-arts/alumni-color-exhibition.html %}">
       <img src="{% link assets/wheel/wheaton-alums-color.jpg %}" alt="" />
       <h3 class="h5">Alumni of Color Exhibition</h3>
     </a>

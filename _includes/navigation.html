@@ -2,7 +2,7 @@
     <li><a href="{% link _painting/index.html %}"{% if page.permalink == 'painting/' %} aria-current="page"{% endif %}>Paintings</a></li>
     <li><a href="{% link _sculpture/index.html %}"{% if page.permalink == 'sculpture/' %} aria-current="page"{% endif %}>Sculpture</a></li>
     <li><a href="{% link about.md %}"{% if page.permalink == 'about/' %} aria-current="page"{% endif %}>About</a></li>
-    <li><a href="#">News</a></li>
+    {% comment %}<li><a href="#">News</a></li>{% endcomment %}
     <li><a href="{% link contact.html %}"{% if page.permalink == 'contact/' %} aria-current="page"{% endif %}>Contact</a></li>
     {%- if include.top != "Yes" -%}<li class="n__social">
       {% include instagram.html %}
