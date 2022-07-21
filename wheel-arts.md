@@ -9,19 +9,19 @@ body-class: wheel
 
 # Wheel Arts
 
-Keithline was an independent curator and exhibition designer from 2004–2020 under the name Wheel Arts Administration. She is currently the Exhibitions Director for the Woodstock Artists Association and Museum and is not taking on new clients.
+From 2004 to 2021, Keithline did business as Wheel Arts Administration. She is currently the part-time Exhibitions Director for the Woodstock Artists Association and Museum and is not taking on new clients. 
 {:id="wheel-resume"}
 
 ## Selected Project Archive
 {:id="projects"}
 
 <section aria-describedby="projects" class="g wheel" markdown="0">
-  <div class="gc--sm--6 gc--lg--4">
+  {% comment %}<div class="gc--sm--6 gc--lg--4">
     <a href="{% link wheel-arts/simile-metaphor-barbara-owens.html %}">
       <img src="{% link assets/wheel/simile-metaphor-red-necklace.jpg %}" alt="" />
       <h3 class="h5">Simile + Metaphor: Red Necklace</h3>
     </a>
-  </div>
+  </div>{% endcomment %}
   <div class="gc--sm--6 gc--lg--4">
     <a href="{% link wheel-arts/fiber-paper-love.html %}">
       <img src="{% link assets/wheel/fiber-paper-love.jpg %}" alt="" />
@@ -46,10 +46,16 @@ Keithline was an independent curator and exhibition designer from 2004–2020 un
       <h3 class="h5">Props & Fine Art From Movies, Television, & Theatre</h3>
     </a>
   </div>
-  <div class="gc--sm--6 gc--lg--4">
+  {% comment %}<div class="gc--sm--6 gc--lg--4">
     <a href="{% link wheel-arts/alumni-color-exhibition.html %}">
       <img src="{% link assets/wheel/wheaton-alums-color.jpg %}" alt="" />
       <h3 class="h5">Alumni of Color Exhibition</h3>
+    </a>
+  </div>{% endcomment %}
+  <div class="gc--sm--6 gc--lg--4">
+    <a href="{% link wheel-arts/colorism-work-play.html %}">
+      <img src="{% link assets/wheel/color-ism-gallery-03.jpg %}" alt="" />
+      <h3 class="h5">Color-ism</h3>
     </a>
   </div>
 </section>
@@ -91,7 +97,7 @@ Keithline was an independent curator and exhibition designer from 2004–2020 un
 : _Providence Art Windows Invitational_, Providence, RI
 
 
-## Select Projects
+## Arts Administration
 
 Current
 : **Rhode Island State Council On the Arts:** Consulting Director, Percent For Art program/State Cultural Facilities Grants; Contemporary Art At the State House Galleries; Art At the Airport Galleries; convene selection panels, coordinate site visits, Requests For Qualifications, public art project management from contract through ribbon cutting, budgets, press, communications, social media, artist and agency contracts, website, educational outreach
@@ -200,23 +206,23 @@ Current
 
 ## Select Bibliography
 
-Making The Leap Into Public Art, Elysian McNiff, Art Work Archive, January 2020
-ArtWorks, Martina Windels, RI-PBS, May 2012
-Public Art, Maureen Moakley, RI Access, April 2013
-A Tool Is A Mirror at Mobius, Boston Globe, Cate McQuaid, May 2011
-Art That Walks A Fine Line Between Reality And Illusion, The New York Times, Benjamin Genocchio, January 2008
-Shadow Show, Art New England, Patricia Rosoff, April/May 2008
-Out Of Darkness, The Hartford Courant, Matt Eagan, November 2007
-Rhode Island's Public Art Program Threatened, Art New England, Doug Norris, April/May 2010
-Window Dressing: A Look Into Providence’s Art Windows, Art New England, Doug Norris, December/January 2010
-Shadow Show, Art New England, Patricia Rosoff, April/May 2008
-Out Of Darkness, The Hartford Courant, Matt Eagan, November 2007
++ _Making The Leap Into Public Art_, Elysian McNiff, Art Work Archive, January 2020
++ _ArtWorks_, Martina Windels, RI-PBS, May 2012
++ _Public Art_, Maureen Moakley, RI Access, April 2013
++ _A Tool Is A Mirror at Mobius_, Boston Globe, Cate McQuaid, May 2011
++ _Art That Walks A Fine Line Between Reality And Illusion_, The New York Times, Benjamin Genocchio, January 2008
++ _Shadow Show, Art New England_, Patricia Rosoff, April/May 2008
++ _Out Of Darkness_, The Hartford Courant, Matt Eagan, November 2007
++ _Rhode Island’s Public Art Program Threatened_, Art New England, Doug Norris, April/May 2010
++ _Window Dressing: A Look Into Providence’s Art Windows_, Art New England, Doug Norris, December/January 2010
++ _Shadow Show_, Art New England, Patricia Rosoff, April/May 2008
++ _Out Of Darkness_, The Hartford Courant, Matt Eagan, November 2007
 
 
 ## Education
 
 **Emerson College, Bachelor of Science in Communications**
 
-Advisory Committee, Public Art Review
-Advisory Committee, City of Providence Department of Arts, Culture and Tourism
+Advisory Committee, Public Art Review  
+Advisory Committee, City of Providence Department of Arts, Culture and Tourism  
 Memberships: ArTTable, International Sculpture Center, Americans for the Arts, Ecoarts
