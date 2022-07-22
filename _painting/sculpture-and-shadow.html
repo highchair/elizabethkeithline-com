@@ -21,19 +21,18 @@ meta-image: /assets/painting/vast-2021-lg.jpg
 </section>
 
 <section class="g">
-  <figure class="gc__push--md--1 gc--md--10 gc__push--lg--2 gc--lg--8">
-    {% include picture.html filepath='/assets/painting/shadow-hands' alt="" %}
-    <figcaption>Shadow play during the show opening</figcaption>
-  </figure>
-</section>
-
-<section class="c--text">
-  <div class="g">
-    <div class="gc">
-      <p class="u__rhythm"><strong>An interview on WKZE Radio 98.1 FM</strong> — Listen to Liz talk to WKZE radio hosts about the new Shadow Paintings show that hung at 11 Jane Street in August and September of 2021. </p>
-      <audio controls src="{% link assets/media/ELIZABETH-KEITHLINE-phone-interview-08-24-21.mp3 %}">
-        <p>We’re sorry, your browser does not support the <code>audio</code> element. You may download this file and play it on your computer with a native audio player application that supports the MP3 file format.</p>
-      </audio>
+  <div class="gc gc--md--7">
+    <figure>
+      {% include picture.html filepath='/assets/painting/shadow-hands' alt="" %}
+      <figcaption>Shadow play during the show opening</figcaption>
+    </figure>
+  </div>
+  <div class="gc gc--md--5">
+    <div class="ar" style="aspect-ratio: 1080 / 1920">
+      <video class="video" controls="" preload="auto" width="1080">
+        <source src="{% link /assets/media/ada-shadows-play.mp4 %}" type="video/mp4">
+        <p>Sorry! Your browser does not support the HTML5 video tag. <a href="{% link /assets/media/ada-shadows-play.mp4 %}" download>You may download the MP4 video</a> and try to play it using a native player for your operating system.</p>
+      </video>
     </div>
   </div>
 </section>
@@ -85,6 +84,18 @@ meta-image: /assets/painting/vast-2021-lg.jpg
     {% include picture.html filepath='/assets/painting/vast-2021' alt="" %}
     <figcaption><i>Vast 2021</i>, 12 x 9"</figcaption>
   </figure>
+</section>
+
+<section class="c--text">
+  <div class="g">
+    <div class="gc">
+      <h2 class="h3">Press</h2>
+      <p class="u__rhythm"><strong>An interview on WKZE Radio 98.1 FM</strong> — Listen to Liz talk to WKZE radio hosts about the new Shadow Paintings show that hung at 11 Jane Street in August and September of 2021. </p>
+      <audio controls src="{% link assets/media/ELIZABETH-KEITHLINE-phone-interview-08-24-21.mp3 %}">
+        <p>We’re sorry, your browser does not support the <code>audio</code> element. You may download this file and play it on your computer with a native audio player application that supports the MP3 file format.</p>
+      </audio>
+    </div>
+  </div>
 </section>
 
 {% include_relative subnav-painting.html %}
