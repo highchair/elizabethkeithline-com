@@ -54,8 +54,14 @@ From 2004 to 2021, Keithline did business as Wheel Arts Administration. She is c
   </div>{% endcomment %}
   <div class="gc--sm--6 gc--lg--4">
     <a href="{% link wheel-arts/colorism-work-play.html %}">
-      <img src="{% link assets/wheel/color-ism-gallery-03.jpg %}" alt="" />
+      <img src="{% link assets/wheel/color-ism-thumb.jpg %}" alt="" />
       <h3 class="h5">Color-ism</h3>
+    </a>
+  </div>
+  <div class="gc--sm--6 gc--lg--4">
+    <a href="{% link wheel-arts/precession.html %}">
+      <img src="{% link assets/wheel/spalter-precession-thumb.jpg %}" alt="" />
+      <h3 class="h5">Precession</h3>
     </a>
   </div>
 </section>
