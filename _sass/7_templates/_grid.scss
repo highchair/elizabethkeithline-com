@@ -103,6 +103,12 @@ $grid-col-gap-lg: 2rem;
 }
 
 // Flex utilities
+// Horizontal (inline) direction
+.justify-content--center {
+  justify-content: center;
+}
+
+// Vertical (block) direction
 .align-items--end {
   align-items: end
 }
