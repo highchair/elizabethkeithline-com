@@ -1,8 +1,8 @@
 {%- assign meta_title = site.title -%}
-{% comment %}Default: "Elizabeth Keithline"{% endcomment %}
+{%- comment -%}Default: "Elizabeth Keithline"{%- endcomment -%}
 {%- assign meta_title_trailer = site.title | prepend: ' | ' -%}
-{% comment %}Default: "| Elizabeth Keithline"{% endcomment %}
-{% comment %}If there is a page title value:{% endcomment %}
+{%- comment -%}Default: "| Elizabeth Keithline"{%- endcomment -%}
+{%- comment -%}If there is a page title value:{%- endcomment -%}
 {%- if page.title -%}
   {%- assign meta_title = page.title | append: meta_title_trailer -%}
 {%- endif -%}
@@ -28,24 +28,14 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wdth,wght@84,300;84,540;100,200;100,342;100,540&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="{% link assets/css/main.scss %}?cb={{ 'now' | date: '%Y%m%f-%H%M' }}">
+
+    <link rel="icon" href="{% link favicon.ico %}" sizes="any">
+    <link rel="icon" href="{% link favicon.svg %}" type="image/svg+xml">
+    <link rel="manifest" href="{% link site.webmanifest %}">
+    <link rel="mask-icon" href="{% link safari-pinned-tab.svg %}" color="#291f19">
+    <meta name="msapplication-TileColor" content="#291f19">
+    <meta name="theme-color" content="#291f19">
 {%- comment -%}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-817925-2"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-17D4B0M6BN"></script>
-
-    <!-- Facebook Meta Tags -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ site.prod_url }}{% unless page.url == '\' %}{{ page.url }}{% endunless %}">
-    
-    <!-- Icons and Theme -->
-    <link rel="icon" type="image/png" sizes="any" href="{{ site.prod_url }}assets/favicons/favicon-32x32.png">
-    <link rel="icon" href="{{ site.prod_url }}assets/favicons/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="{{ site.prod_url }}assets/favicons/apple-touch-icon.png">
-    <link rel="manifest" href="{{ site.prod_url }}assets/favicons/site.webmanifest">
-    <link rel="mask-icon" href="{{ site.prod_url }}assets/favicons/safari-pinned-tab.svg" color="#007070">
-    <meta name="msapplication-config" content="{{ site.prod_url }}assets/favicons/browserconfig.xml">
-    <meta name="msapplication-TileColor" content="#007070">
-    <meta name="theme-color" content="#007070">
-
-    Looking for analytics? JS lazy loads it only when the user opts in
+    Grab old and new Google Analytics for launch
 {%- endcomment -%}
   </head>
