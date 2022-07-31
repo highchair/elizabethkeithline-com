@@ -1,5 +1,15 @@
 .wheel {
 
+  @include breakpoint-up(large) {
+    margin-inline-start: -5vw;
+    margin-inline-end: -5vw;
+  }
+
+  @include breakpoint-up(x-large) {
+    margin-inline-start: -10vw;
+    margin-inline-end: -10vw;
+  }
+
   a {
     display: block;
     position: relative;

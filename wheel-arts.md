@@ -16,12 +16,12 @@ From 2004 to 2021, Keithline did business as Wheel Arts Administration. She is c
 {:id="projects"}
 
 <section aria-describedby="projects" class="g wheel" markdown="0">
-  {% comment %}<div class="gc--sm--6 gc--lg--4">
+  <div class="gc--sm--6 gc--lg--4">
     <a href="{% link wheel-arts/simile-metaphor-barbara-owens.html %}">
       <img src="{% link assets/wheel/simile-metaphor-red-necklace.jpg %}" alt="" />
       <h3 class="h5">Simile + Metaphor: Red Necklace</h3>
     </a>
-  </div>{% endcomment %}
+  </div>
   <div class="gc--sm--6 gc--lg--4">
     <a href="{% link wheel-arts/fiber-paper-love.html %}">
       <img src="{% link assets/wheel/fiber-paper-love.jpg %}" alt="" />
@@ -46,12 +46,12 @@ From 2004 to 2021, Keithline did business as Wheel Arts Administration. She is c
       <h3 class="h5">Props & Fine Art From Movies, Television, & Theatre</h3>
     </a>
   </div>
-  {% comment %}<div class="gc--sm--6 gc--lg--4">
+  <div class="gc--sm--6 gc--lg--4">
     <a href="{% link wheel-arts/alumni-color-exhibition.html %}">
       <img src="{% link assets/wheel/wheaton-alums-color.jpg %}" alt="" />
       <h3 class="h5">Alumni of Color Exhibition</h3>
     </a>
-  </div>{% endcomment %}
+  </div>
   <div class="gc--sm--6 gc--lg--4">
     <a href="{% link wheel-arts/colorism-work-play.html %}">
       <img src="{% link assets/wheel/color-ism-thumb.jpg %}" alt="" />
@@ -62,6 +62,12 @@ From 2004 to 2021, Keithline did business as Wheel Arts Administration. She is c
     <a href="{% link wheel-arts/precession.html %}">
       <img src="{% link assets/wheel/spalter-precession-thumb.jpg %}" alt="" />
       <h3 class="h5">Precession</h3>
+    </a>
+  </div>
+  <div class="gc--sm--6 gc--lg--4">
+    <a href="{% link wheel-arts/on-on-art-without-end.html %}">
+      <img src="{% link assets/wheel/on-on-palm-fronds-spalter.jpg %}" alt="" />
+      <h3 class="h5">On and On: Art Without End</h3>
     </a>
   </div>
 </section>
