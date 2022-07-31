@@ -24,7 +24,7 @@
     <meta name="description" content="{{ meta_description }}">
     <meta property="og:title" content="{{ meta_title }}">
     <meta property="og:description" content="{{ meta_description }}">
-    <meta property="og:image" content="{{ site.prod_url }}{{ meta_image }}">
+    <meta property="og:image" content="{{ site.prod_url }}{{ site.baseurl }}{{ meta_image }}">
 
     <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wdth,wght@84,300;84,540;100,200;100,342;100,540&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="{% link assets/css/main.scss %}?cb={{ 'now' | date: '%Y%m%f-%H%M' }}">
@@ -35,7 +35,24 @@
     <link rel="mask-icon" href="{% link safari-pinned-tab.svg %}" color="#291f19">
     <meta name="msapplication-TileColor" content="#291f19">
     <meta name="theme-color" content="#291f19">
-{%- comment -%}
-    Grab old and new Google Analytics for launch
-{%- endcomment -%}
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-817925-29"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-817925-29');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BGDVBV384X"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-BGDVBV384X');
+    </script>
   </head>
