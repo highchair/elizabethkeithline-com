@@ -1,0 +1,27 @@
+---
+layout: text
+permalink: news/
+title: "News & Updates"
+---
+
+<header class="c--text">
+  <h1 class="u__rhythm posts__title">News & Updates</h1>
+</header>
+<section class="c--text posts">
+  <ul class="u__list__unstyled posts__list">
+    {% for post in site.posts limit:10 %}
+    <li id="{{ post.title | slugify }}" class="posts__item single-post">
+
+      <h2 class="single-post__title">{{ post.title }}</h2>
+      <article class="v-rhythm u__vertical__pt single-post__content">
+
+        {{ post.content }}
+
+      </article>
+      <footer class="u__vertical__pb single-post__footer">
+        <p class="u__text__right single-post__meta"><time datetime="{{ post.date }}">{{ post.date | date: "%d %B, %Y"}}</time></p>
+      </footer>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
