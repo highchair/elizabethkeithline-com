@@ -1,0 +1,33 @@
+.posts {
+
+  &__title {}
+
+  &__list {}
+
+  &__item {
+    scroll-padding-top: 5rem;
+  }
+
+  &__item + &__item {
+    margin-top: $vertical-rhythm;
+  }
+}
+
+.single-post {
+
+  &__title {}
+
+  &__link {}
+
+  &__meta {
+    color: palette(gray-700);
+  }
+
+  &__content {}
+
+  &__footer {
+    border-top: 0.5px solid $color__borders;
+    margin-top: $vertical-rhythm;
+    padding-top: ($vertical-rhythm / 2);
+  }
+}
