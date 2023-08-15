@@ -9,6 +9,18 @@ meta-image: /assets/sculpture/only-strong-dodge-lg.jpg
 
 <h1 class="u__sr-only">Elizabeth Keithline</h1>
 
+<section class="g u__vertical__p">
+  <div class="gc--md--3">
+    <h2 class="u__text__center u__text__left--md">News</h2>
+  </div>
+
+  <div class="gc--md--9">
+    {% assign newpost = site.posts.first %}
+    <p class="u__rhythm u__text__center u__text__left--md"><strong>{{ newpost.title }}</strong> — {{ newpost.content | strip_html | truncatewords: 36 }} </p>
+    <p class="u__text__center u__text__left--md"><a class="btn" href="/news#{{ newpost.title | slugify }}">Read Full Post</a></p>
+  </div>
+</section>
+
 <section class="g u__vertical__pt">
   <div class="gc--md">
     <h2 class="u__text__center u__text__left--md">Recent Work</h2>
@@ -43,18 +55,6 @@ meta-image: /assets/sculpture/only-strong-dodge-lg.jpg
   <div class="gc--md--9">
     <p class="u__rhythm u__text__center u__text__left--md">Elizabeth Keithline’s work focuses on human self-extension in many forms. A weaver since the age of 14, in 1996 she invented a sculpture technique called “Lost Box.” She weaves wire around objects, then burns them out or peels them off, creating a wire memory.</p>
     <p class="u__text__center u__text__left--md"><a class="btn" href="{% link about.md %}#readmore">More about Elizabeth — Statement & Resumes</a></p>
-  </div>
-</section>
-
-<section class="g u__vertical__p">
-  <div class="gc--md--3">
-    <h2 class="u__text__center u__text__left--md">News</h2>
-  </div>
-
-  <div class="gc--md--9">
-    {% assign newpost = site.posts.first %}
-    <p class="u__rhythm u__text__center u__text__left--md"><strong>{{ newpost.title }}</strong> — {{ newpost.content | strip_html | truncatewords: 36 }} </p>
-    <p class="u__text__center u__text__left--md"><a class="btn" href="/news#{{ newpost.title | slugify }}">Read Full Post</a></p>
   </div>
 </section>
 
