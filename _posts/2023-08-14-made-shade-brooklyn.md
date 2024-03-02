@@ -5,7 +5,7 @@ date: 2023-08-14 14:00:00 -0500
 categories: [ "Announcements" ]
 ---
 
-I'm excited to invite everyone to the opening of **Made In The Shade**, a public art project created with Brooklyn residents through the [New York City Department of Parks & Recreation](https://www.facebook.com/nycparks){:target="_blank"} (Facebook link). It will be installed along 3rd Street between 4th & 5th Aves at [Old Stone House of Brooklyn](https://www.facebook.com/oshbklyn){:target="_blank"} (Facebook link) in Washington Park. 
+I'm excited to invite everyone to the opening of **Made In The Shade**, a public art project created with Brooklyn residents through the [New York City Department of Parks & Recreation (Facebook link)](https://www.facebook.com/nycparks). It will be installed along 3rd Street between 4th & 5th Aves at [Old Stone House of Brooklyn (Facebook link)](https://www.facebook.com/oshbklyn) in Washington Park. 
 
 The opening event is on Sunday, August 27 from 2:00-4:00 pm. “Made In The Shade” is a tribute to the parks and green spaces that allow people to gather, cool off, play and relax. Stop in or see it 24/7 through October 22, 2023.
 

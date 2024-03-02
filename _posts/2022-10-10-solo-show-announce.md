@@ -5,7 +5,7 @@ date: 2022-10-10 10:00:00 -0500
 categories: [ "Announcements" ]
 ---
 
-I’m excited and pleased to announce that [Chashama](https://chashama.org){:target="_blank"} has awarded my work a solo show. “[Welcome Home/Shadow Home](https://chashama.org/event/welcome-home-shadow-home/){:target="_blank"}” will be open Fridays through Sundays from 10:00 am to 8:00 pm, October 21 through November 6, located at 340 East 64th Street, New York, NY. 
+I’m excited and pleased to announce that [Chashama](https://chashama.org) has awarded my work a solo show. “[Welcome Home/Shadow Home](//chashama.org/event/welcome-home-shadow-home/)” will be open Fridays through Sundays from 10:00 am to 8:00 pm, October 21 through November 6, located at 340 East 64th Street, New York, NY.
 
 An opening event will be held Friday, October 28, from 5:00 to 7:00 pm with Jeff Keithline and Sal Cataldi playing wild and wiry music from 6:00 to 7:00.
 
