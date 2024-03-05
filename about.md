@@ -16,9 +16,9 @@ Elizabeth Keithline’s work focuses on human self-extension in many forms. A we
 ## Wheel Arts Administration
 {:.h3}
 
-Keithline was an independent curator and exhibition designer from 2004–2020 under the name Wheel Arts Administration. She is currently the Exhibitions Director for the Woodstock Artists Association and Museum and is not taking on new clients.
+Wheel Arts Administration is accepting clients on a limited basis. Review the history of Wheel’s work in curating and public art:
 
-[Previous Wheel Arts Projects]({% link wheel-arts.md %}#wheel-resume){:.btn}
+[Wheel Arts Projects]({% link wheel-arts.md %}#wheel-resume){:.btn}
 
 </div>
 

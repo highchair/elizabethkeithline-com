@@ -9,8 +9,10 @@ body-class: wheel
 
 # Wheel Arts
 
-From 2004 to 2021, Keithline did business as Wheel Arts Administration. She is currently the part-time Exhibitions Director for the Woodstock Artists Association and Museum and is not taking on new clients. 
+From 2004 to 2021, Keithline did business as Wheel Arts Administration. She is currently the part-time Exhibitions Director for the Woodstock Artists Association and Museum and is not taking on new clients.
 {:id="wheel-resume"}
+
+[Download a PDF resume]({% link /assets/wheel/Keithline-Arts-Administration-Resume.pdf %}).
 
 ## Selected Project Archive
 {:id="projects"}
@@ -73,45 +75,12 @@ From 2004 to 2021, Keithline did business as Wheel Arts Administration. She is c
 </section>
 
 
-## Gallery/Independent Curator/Exhibition Design
-
-2018
-: _Fiber/Paper/Love_, Wheaton College, Norton, MA
-: _Simile & Metaphor: Red Necklace_, Barbara Owen, Wheaton MA	
-: _Working Objects: Props By Ross MacDonald_, Wheaton College, Norton, MA
-: _Fine Art From Movies, Television & Theater_, Wheaton College, Norton, MA
-: _Alumni Of Color Exhibition_, Wheaton College Archives, Norton, MA
-: _Resonance_, Lynne Harlow, Wheaton College, Norton, MA
-
-2017-2018
-: _Color-ism_, _WORK/PLAY_, Wheaton College, Norton, MA
-: _On & On: Art Without End_, Mark Miller Gallery, 92 Orchard Street, New York, NY, 2016 and at Wheaton College, Norton, MA 
-
-2016
-: _Precession_, Anne Morgan Spalter, SPRING/BREAK Art Show, Moynihan Station, New York, NY, 2015
-
-2013-2014
-: _The Meek Shall Inherit_, BoxoProjects, New York, NY 2013; Umass Amherst 2014
-
-2011-2013
-: _A Tool Is A Mirror_, Umass Amherst, Mobius, Boston Cyberfest and Danforth Museum	
-
-2008
-: _The Shadow Show_, Real Art Ways, Hartford, CT
-
-2007
-: _The Apartment At The Mall: The Showcase Opening_, Providence, RI
-
-2006-2007
-: _Ourchitecture_, Newport Art Museum and RI Housing Authority, Providence
-
-2006-2008
-: _Providence Art Windows Invitational_, Providence, RI
-
-
 ## Arts Administration
 
-Current
+2020-2024
+: **Woodstock Artists Association & Museum**, Exhibitions Director; gallery & museum management, member liaison; exhibition design, social media, installation, programming
+
+2008-2020
 : **Rhode Island State Council On the Arts:** Consulting Director, Percent For Art program/State Cultural Facilities Grants; Contemporary Art At the State House Galleries; Art At the Airport Galleries; convene selection panels, coordinate site visits, Requests For Qualifications, public art project management from contract through ribbon cutting, budgets, press, communications, social media, artist and agency contracts, website, educational outreach
 
 2017-2018 & 2014-2015
@@ -146,6 +115,42 @@ Current
 
 2004-2007
 : **Wind/Sea/Sky:** public art projects
+
+
+## Gallery/Independent Curator/Exhibition Design
+
+2018
+: _Fiber/Paper/Love_, Wheaton College, Norton, MA
+: _Simile & Metaphor: Red Necklace_, Barbara Owen, Wheaton MA	
+: _Working Objects: Props By Ross MacDonald_, Wheaton College, Norton, MA
+: _Fine Art From Movies, Television & Theater_, Wheaton College, Norton, MA
+: _Alumni Of Color Exhibition_, Wheaton College Archives, Norton, MA
+: _Resonance_, Lynne Harlow, Wheaton College, Norton, MA
+
+2017-2018
+: _Color-ism_, _WORK/PLAY_, Wheaton College, Norton, MA
+: _On & On: Art Without End_, Mark Miller Gallery, 92 Orchard Street, New York, NY, 2016 and at Wheaton College, Norton, MA 
+
+2016
+: _Precession_, Anne Morgan Spalter, SPRING/BREAK Art Show, Moynihan Station, New York, NY, 2015
+
+2013-2014
+: _The Meek Shall Inherit_, BoxoProjects, New York, NY 2013; Umass Amherst 2014
+
+2011-2013
+: _A Tool Is A Mirror_, Umass Amherst, Mobius, Boston Cyberfest and Danforth Museum	
+
+2008
+: _The Shadow Show_, Real Art Ways, Hartford, CT
+
+2007
+: _The Apartment At The Mall: The Showcase Opening_, Providence, RI
+
+2006-2007
+: _Ourchitecture_, Newport Art Museum and RI Housing Authority, Providence
+
+2006-2008
+: _Providence Art Windows Invitational_, Providence, RI
 
 
 ## Writing
