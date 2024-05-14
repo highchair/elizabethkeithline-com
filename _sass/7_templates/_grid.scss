@@ -1,3 +1,28 @@
+/*
+
+  How to Use
+
+  Row containers:
+  <div class="g">
+
+  Columns:
+  <div class="g">
+    <div class="gc">
+
+  Column options
+  Breakpoints:
+    .gc
+    .gc--sm
+    .gc--md
+    .gc--lg
+    .gc--xl
+  12 col grid
+    .gc--sm--[cols 1 through 12]: At the breakpoint, display as this many columns
+  Push or Pull
+    .gc__pull--[bp]--[cols]
+    .gc__push--[bp]--[cols]
+*/
+
 $grid-col-gap-sm: 1rem;
 $grid-col-gap-lg: 2rem;
 

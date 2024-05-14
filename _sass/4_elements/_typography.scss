@@ -187,7 +187,7 @@ hr {
   &::after {
     content: '';
     position: absolute;
-    //border-top: 1px dotted palette('brand-teal');
+    border-top: 1px dotted palette('brand-blue');
     top: 50%;
     left: 0;
     right: 0;
