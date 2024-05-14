@@ -17,7 +17,7 @@ meta-image: /assets/sculpture/only-strong-dodge-lg.jpg
   <div class="gc--md--9">
   {% assign newpost = site.posts.first %}
   {% if newpost.content.size > 250 %}
-    <p class="u__rhythm u__text__center u__text__left--md"><strong>{{ newpost.title }}</strong> — {{ newpost.content | markdownify | strip_html | truncatewords: 36 }} </p>
+    <p class="u__rhythm u__text__center u__text__left--md"><strong>{{ newpost.title }}</strong> — {{ newpost.content | markdownify | strip_html | truncatewords: 40 }} </p>
     <p class="u__text__center u__text__left--md"><a class="btn" href="/news#{{ newpost.title | slugify }}">Read Full Post</a></p>
   {% else %}
     <p class="u__rhythm u__text__center u__text__left--md"><strong>{{ newpost.title }}</strong> — {{ newpost.content }} </p>

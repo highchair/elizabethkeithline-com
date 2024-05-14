@@ -9,7 +9,7 @@ I'm excited to invite everyone to the opening of **Made In The Shade**, a public
 
 The opening event is on Sunday, August 27 from 2:00-4:00 pm. “Made In The Shade” is a tribute to the parks and green spaces that allow people to gather, cool off, play and relax. Stop in or see it 24/7 through October 22, 2023.
 
-<img src="{% link assets/news/swing-shadows.jpg %}" alt="" />
+<img src="/assets/news/swing-shadows.jpg" alt="" />
 
 Made In The Shade, a public art project by artist Elizabeth Keithline, opening August 27 – October 22, 2023. This exhibition is presented in coordination with Old Stone House and NYC Parks’ Art in the Parks program. The public is invited to attend a free opening event on Sunday, August 27, 4-6 pm.
 

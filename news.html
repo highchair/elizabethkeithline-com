@@ -15,7 +15,7 @@ title: "News & Updates"
       <h2 class="single-post__title">{{ post.title }}</h2>
       <article class="v-rhythm u__vertical__pt single-post__content">
 
-        {{ post.content }}
+        {{ post.content | markdownify }}
 
       </article>
       <footer class="u__vertical__pb single-post__footer">
