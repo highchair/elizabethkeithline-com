@@ -1,6 +1,7 @@
   <ul {% if include.top == "Yes" %}id="mainmenu" class="aria-expand" {% endif %}role="list">
     <li><a href="{% link _sculpture/index.html %}"{% if page.permalink == 'sculpture/' %} aria-current="page"{% endif %}>Sculpture</a></li>
     <li><a href="{% link _painting/index.html %}"{% if page.permalink == 'painting/' %} aria-current="page"{% endif %}>Paintings</a></li>
+    <li><a href="{% link public-art.html %}"{% if page.permalink == 'public-art/' %} aria-current="page"{% endif %}>Public Art</a></li>
     <li><a href="{% link about.md %}"{% if page.permalink == 'about/' %} aria-current="page"{% endif %}>About</a></li>
     <li><a href="{% link news.html %}"{% if page.permalink == 'news/' %} aria-current="page"{% endif %}>News</a></li>
     <li><a href="{% link contact.html %}"{% if page.permalink == 'contact/' %} aria-current="page"{% endif %}>Contact</a></li>

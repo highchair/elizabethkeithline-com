@@ -34,7 +34,7 @@ $nav-h-padding: 0.5rem;
     padding: $nav-v-padding $nav-h-padding;
 
     @include breakpoint-up(large) {
-      padding: 1.25rem 1.5rem
+      padding: 1.25rem 1rem
     }
   }
 

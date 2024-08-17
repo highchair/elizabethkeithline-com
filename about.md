@@ -28,6 +28,44 @@ Elizabeth Keithline
 [elizabethkeithline@gmail.com](mailto:elizabethkeithline@gmail.com)  
 [401/578-4313](tel:401-578-4313)
 
+### Public Art Projects 
+
+2023
+: _Made In The Shade_, City of NY Parks & Recreation, Brooklyn, NY
+
+2022
+: _Through Line_, Newberry Artisans, Saugerties, NY 
+
+2019
+: _Shadow Tree_, Peabody Essex Museum, Salem MA	
+
+2018
+: _Two Boats: One For You, One For Me_, North Bennington Outdoor Sculpture Show, North Bennington, VT
+: _Hot, Hot, Hot_ and _Three Arches_, Art In the Yard, Oxford Free Public Library, Oxford, MA
+
+2017
+: _Two Boats: One For You, One For Me_, Art In the Park, Worcester; Anna Maria College, Paxton, MA 
+: _Dreamtown_, ArtPrize, Grand Rapids, MI
+
+2016
+: _Downtown Dreamtown_, 1 Summer Street, Boston, MA
+
+2015
+: _Isle Arts Initiative_, Georges Island, Boston
+
+2011
+: _Gatescapes_, New York, NY
+
+Multi-year
+: _WindSeaSky_, Convergence Sculpture Festival, Newport, RI
+
+2006-07
+: _Ourchitecture_, Newport Art Museum and RI Housing Authority, Providence
+
+2004
+: _Open for Dancing_, Island Moving Company, Newport, RI
+
+
 ### Select One or Two Person Museum or Gallery Shows
 
 2021
@@ -163,35 +201,6 @@ Elizabeth Keithline
 : _Spark Selects_, Spark Gallery, Denver, CO
 : _WindSeaSky_, Convergence Sculpture Festival, Newport, RI
 : _Babylon Lexicon_, Barrister’s Gallery, New Orleans, LA
-
-
-### Public Art
-
-2018
-: _Two Boats: One For You, One For Me_, North Bennington Outdoor Sculpture Show, North Bennington, VT
-: _Hot, Hot, Hot_ and _Three Arches_, Art In the Yard, Oxford Free Public Library, Oxford, MA
-
-2017
-: _Two Boats: One For You, One For Me_, Art In the Park, Worcester; Anna Maria College, Paxton, MA 
-: _Dreamtown_, ArtPrize, Grand Rapids, MI
-
-2016
-: _Downtown Dreamtown_, 1 Summer Street, Boston, MA
-
-2015
-: _Isle Arts Initiative_, Georges Island, Boston
-
-2011
-: Gatescapes, New York, NY
-
-Multi-year
-: _WindSeaSky_, Convergence Sculpture Festival, Newport, RI
-
-2006-07
-: _Ourchitecture_, Newport Art Museum and RI Housing Authority, Providence
-
-2004
-: _Open for Dancing_, Island Moving Company, Newport, RI
 
 
 ## Education
