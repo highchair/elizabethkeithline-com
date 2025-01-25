@@ -4,16 +4,16 @@
   .home__grid {}
   
   @include breakpoint-up(medium) {
-    .painting-1,
+    .painting-1 {
+      flex-basis: 40%;
+    }
+
     .painting-2 {
-      //flex-basis: 0.8/(0.8 + 0.8 + 1.25) * 100%;
-      flex-basis: 27.5%;
+      flex-basis: 32%;
     }
 
     .painting-3 {
-      //width: aspect3/(aspect1 + aspect2 + aspect3);
-      //flex-basis: 1.25/(0.8 + 0.8 + 1.25) * 100%;
-      flex-basis: 45%;
+      flex-basis: 21.5%;
     }
   }
 }
