@@ -16,11 +16,15 @@ meta-image: /assets/sculpture/only-strong-dodge-lg.jpg
 
   <div class="gc--md--9">
   {% assign newpost = site.posts.first %}
-  {% if newpost.content.size > 250 %}
-    <p class="u__rhythm u__text__center u__text__left--md"><strong>{{ newpost.title }}</strong> — {{ newpost.content | markdownify | strip_html | truncatewords: 40 }} </p>
-    <p class="u__text__center u__text__left--md"><a class="btn" href="/news#{{ newpost.title | slugify }}">Read Full Post</a></p>
+  {% if newpost.excerpt.size > 0 %}
+    <p class="u__rhythm u__text__center u__text__left--md"><strong>{{ newpost.title }}</strong> — {{ newpost.excerpt }} <a class="btn" href="/news#{{ newpost.title | slugify }}">Read Full Post</a></p>
   {% else %}
+    {% if newpost.content.size > 240 %}
+    <p class="u__rhythm u__text__center u__text__left--md"><strong>{{ newpost.title }}</strong> — {{ newpost.content | markdownify | strip_html | truncatewords: 40 }}</p>
+    <p class="u__text__center u__text__left--md"><a class="btn" href="/news#{{ newpost.title | slugify }}">Read Full Post</a></p>
+    {% else %}
     <p class="u__rhythm u__text__center u__text__left--md"><strong>{{ newpost.title }}</strong> — {{ newpost.content }} </p>
+    {% endif %}
   {% endif %}
   </div>
 </section>
@@ -29,25 +33,25 @@ meta-image: /assets/sculpture/only-strong-dodge-lg.jpg
   <div class="gc--md">
     <h2 class="u__text__center u__text__left--md">Recent Work</h2>
   </div>
-  <div class="gc--md">
+  {% comment %}<div class="gc--md">
     <h3 class="u__text__center u__text__right--md"><a href="{% link _painting/sculpture-and-shadow.html %}">Shadow Paintings</a></h3>
-  </div>
+  </div>{% endcomment %}
 </section>
 
 <section class="g u__vertical__pb g--nowrap--md home__grid">
   <div class="gc--6 gc--md--auto painting-1">
-    <a href="{% link _painting/sculpture-and-shadow.html %}" class="ar" style="aspect-ratio: 4 / 5">
-      {% include picture.html filepath='assets/painting/down-the-mountainside' alt="Shadow Painting, Down the Mountainside" %}
+    <a href="{% link _painting/breaking-broken.html %}" class="ar" style="aspect-ratio: 1 / 1">
+      <img src="/assets/recent/breaking-broken-unnamed.jpg" alt="" />
     </a>
   </div>
   <div class="gc--6 gc--md--auto painting-2">
-    <a href="{% link _painting/sculpture-and-shadow.html %}" class="ar" style="aspect-ratio: 4 / 5">
-      {% include picture.html filepath='assets/painting/mountain-ground-2' alt="Shadow Painting, Mountain Ground 2" %}
+    <a href="{% link _painting/breaking-broken.html %}" class="ar" style="aspect-ratio: 7 / 9">
+      <img src="/assets/recent/Ocular_2024_acrylic-wood_14x11.jpg" alt="" />
     </a>
   </div>
   <div class="gc--12 gc--md--auto painting-3">
-    <a href="{% link _painting/sculpture-and-shadow.html %}" class="ar" style="aspect-ratio: 5 / 4">
-      {% include picture.html filepath='assets/painting/vast-2021' alt="Shadow Painting, Vast 2021" %}
+    <a href="{% link _painting/sculpture-and-shadow.html %}" class="ar" style="aspect-ratio: 1 / 2">
+      <img src="/assets/recent/Through-Line-panel-7-Detail_2023.jpg" alt="" />
     </a>
   </div>
 </section>
