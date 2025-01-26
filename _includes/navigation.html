@@ -5,7 +5,9 @@
     <li><a href="{% link about.md %}"{% if page.permalink == 'about/' %} aria-current="page"{% endif %}>About</a></li>
     <li><a href="{% link news.html %}"{% if page.permalink == 'news/' %} aria-current="page"{% endif %}>News</a></li>
     <li><a href="{% link contact.html %}"{% if page.permalink == 'contact/' %} aria-current="page"{% endif %}>Contact</a></li>
-    {%- if include.top != "Yes" -%}<li class="n__social">
+    <li class="n__social">
       {% include instagram.html %}
-    </li>{%- endif -%}
+    </li><li class="n__social">
+      {% include bluesky.html %}
+    </li>
   </ul>

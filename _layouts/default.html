@@ -9,8 +9,8 @@
   <body class="l l--{{ page.layout }}{% if page.body-class %} page--{{ page.body-class }}{% endif %} no-js">
     <a href="#content" class="skip-link u__sr-only u__sr-only--focusable">Skip to Content</a>
 
-    <header class="c c--max u__gutter__p">
-      <a class="brand h2" href="{% link index.html %}">{{ site.title }}</a>
+    <header class="c c--max h u__gutter__p">
+      <a class="h3 brand" href="{% link index.html %}">{{ site.title }}</a>
       <nav class="n n--top" aria-label="Primary">
         <button class="n__toggler js__expand-collapse" type="button" aria-controls="mainmenu" aria-expanded="false" aria-label="Toggle navigation">
           <span class="n__toggler__label">
@@ -20,7 +20,10 @@
         </button>
         {% include navigation.html top='Yes' %}
       </nav>
-      {% include instagram.html aria='True' %}
+      <div class="s">
+        {% include instagram.html aria='True' %}
+        {% include bluesky.html aria='True' %}
+      </div>
     </header>
 
     <main id="content" class="c c--max u__gutter__p u__vertical__p" tabindex="0">
@@ -31,12 +34,15 @@
 
     <!-- <div class="radial"></div> -->
     <footer class="c c--max u__gutter__p u__vertical__pt">
-      <div class="footer__wrapper">
-        <a class="brand h2" href="{% link index.html %}" aria-hidden="true">{{ site.title }}</a>
+      <div class="f footer__wrapper">
+        <a class="h3 brand" href="{% link index.html %}" aria-hidden="true">{{ site.title }}</a>
         <nav class="n n--bottom" aria-label="Secondary" aria-hidden="true">
           {% include navigation.html %}
         </nav>
-        {% include instagram.html aria='True' %}
+        <div class="s">
+          {% include instagram.html aria='True' %}
+          {% include bluesky.html aria='True' %}
+        </div>
       </div>
       <p class="copyright u__vertical__p"><small>All work copyright ©{{ 'now' | date: '%Y' }} {{ site.title }}<br /> and respective artists and authors.</small></p>
     </footer>
