@@ -25,10 +25,23 @@
     }
 
     @include breakpoint-up($mobile-to-desktop-nav) {
+      flex-flow: row wrap;
       justify-content: space-between;
 
       nav {
         margin-inline-start: 0;
+      }
+
+      .brand {
+        flex: 0 1 100%;
+      }
+    }
+
+    @include breakpoint-up('large') {
+      flex-flow: row nowrap;
+
+      .brand {
+        flex: 0 1 auto;
       }
     }
   }

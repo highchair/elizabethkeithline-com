@@ -22,7 +22,12 @@ $nav-h-padding: 0.5rem;
 
   // Bottom/Footer
   footer & {
-    text-align: center;
+    display: none;
+
+    @include breakpoint-up(large) {
+      display: block;
+      text-align: center;
+    }
   }
 }
 
@@ -62,6 +67,7 @@ $nav-h-padding: 0.5rem;
   &__toggler {
     @include button-reset();
     background-color: transparent;
+    margin-right: -1rem;
     padding: $nav-v-padding $nav-h-padding;
     transition: $transition;
 
@@ -104,34 +110,28 @@ $nav-h-padding: 0.5rem;
   // social
   &__social {
 
-    // The Instagram link inside the Nav
-    .n--bottom & {
-      @include breakpoint-up($mobile-to-desktop-nav) {
+    // Hide adjacent social links in header and footer
+    @include breakpoint-down($mobile-to-desktop-nav) {
+      .s &__link {
         @include hide;
       }
     }
 
-    // The Instagram link adjacent to the Nav
-    .n--bottom + &__link {
-      @include breakpoint-down($mobile-to-desktop-nav) {
+    // Hide social links from inside the navigations
+    @include breakpoint-up($mobile-to-desktop-nav) {
+      .h nav &__link,
+      .f nav &__link {
         @include hide;
       }
     }
 
-    // Both labels inside the links adjacent
-    .n + &__link &__label {
-      @include sr-only;
+    // Hide inline labels of adjacent links visually
+    @include breakpoint-up($mobile-to-desktop-nav) {
+      .s &__label {
+        @include sr-only;
+      }
     }
-
-    .n + &__link .social__instagram::before {
-      margin-inline-end: 0;
-    }
-
-    .n + &__link {
-      display: block;
-      padding: $nav-v-padding 0 $nav-v-padding ($nav-h-padding * 2);
-    }
-  }
+  } // end &__social
 
   // Top header
   &--top {}
