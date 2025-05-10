@@ -12,7 +12,7 @@ body-class: wheel
 From 2004 to 2021, Keithline did business as Wheel Arts Administration. She is currently the part-time Exhibitions Director for the Woodstock Artists Association and Museum and is not taking on new clients.
 {:id="wheel-resume"}
 
-[Download a PDF resume]({% link /assets/wheel/Keithline-Arts-Administration-Resume.pdf %}).
+[Download a DOCX resume]({% link /assets/wheel/Keithline-Arts-Administration-Resume-05-06-25.docx %}).
 
 ## Selected Project Archive
 {:id="projects"}
@@ -77,6 +77,9 @@ From 2004 to 2021, Keithline did business as Wheel Arts Administration. She is c
 
 ## Arts Administration
 
+2024
+: Consultant to **McGregor Associates** on City of Kingston, NY public art policy
+
 2020-2024
 : **Woodstock Artists Association & Museum**, Exhibitions Director; gallery & museum management, member liaison; exhibition design, social media, installation, programming
 
@@ -117,19 +120,36 @@ From 2004 to 2021, Keithline did business as Wheel Arts Administration. She is c
 : **Wind/Sea/Sky:** public art projects
 
 
-## Gallery/Independent Curator/Exhibition Design
+## Gallery/Exhibition Design
 
-2018
-: _Fiber/Paper/Love_, Wheaton College, Norton, MA
-: _Simile & Metaphor: Red Necklace_, Barbara Owen, Wheaton MA	
-: _Working Objects: Props By Ross MacDonald_, Wheaton College, Norton, MA
-: _Fine Art From Movies, Television & Theater_, Wheaton College, Norton, MA
-: _Alumni Of Color Exhibition_, Wheaton College Archives, Norton, MA
-: _Resonance_, Lynne Harlow, Wheaton College, Norton, MA
+2021-2024
+: _Exhibitions Director_, Woodstock Artists Association & Museum, Woodstock, NY
+
+2008- 2021
+: _Director_, Art In the Airport Galleries, Rhode Island State Council On the Arts, Providence &amp; Block Island, RI
+
+2012-2021
+: _Director_, Contemporary Art In State Government, Rhode Island State Council On the Arts, Offices statewide
+_
+2017-2018
+: _Interim Director_, Beard &amp; Weil Galleries, Wheaton College, Norton, MA
+
+2012-2016
+: Governors Island Art Fair, _Gallery engagement, development, business advisor_; New York, New York
+
+2014-2015
+: _Interim Director_, Beard & Weil Galleries, Wheaton College, Norton, MA
+
+2006-2008
+: _Founding Director_, Providence Art Windows, Providence, RI
+
+2004-2006
+: _Preparator_; _Interim Director of Operations_, Newport Art Museum
+
+## Independent Curation
 
 2017-2018
-: _Color-ism_, _WORK/PLAY_, Wheaton College, Norton, MA
-: _On & On: Art Without End_, Mark Miller Gallery, 92 Orchard Street, New York, NY, 2016 and at Wheaton College, Norton, MA 
+: _On & On_: Art Without End, Mark Miller Gallery, New York, NY, 2016 and at Wheaton College, Norton, MA
 
 2016
 : _Precession_, Anne Morgan Spalter, SPRING/BREAK Art Show, Moynihan Station, New York, NY, 2015
@@ -138,7 +158,7 @@ From 2004 to 2021, Keithline did business as Wheel Arts Administration. She is c
 : _The Meek Shall Inherit_, BoxoProjects, New York, NY 2013; Umass Amherst 2014
 
 2011-2013
-: _A Tool Is A Mirror_, Umass Amherst, Mobius, Boston Cyberfest and Danforth Museum	
+: _A Tool Is A Mirror_, Umass Amherst, Mobius, Boston Cyberfest and Danforth Museum
 
 2008
 : _The Shadow Show_, Real Art Ways, Hartford, CT
@@ -148,35 +168,6 @@ From 2004 to 2021, Keithline did business as Wheel Arts Administration. She is c
 
 2006-2007
 : _Ourchitecture_, Newport Art Museum and RI Housing Authority, Providence
-
-2006-2008
-: _Providence Art Windows Invitational_, Providence, RI
-
-
-## Writing
-
-+ Monthly International Sculpture Center public art blog
-+ So Happy Together, Artists and Fabricators, Public Art Review, January 2015
-+ Creative Time, Creative Place, Public Art Review blog, December 2013
-+ Durability I, Sculpture Magazine blog, October 2013
-+ Durability II, Sculpture Magazine blog, December 2013
-+ Convergence, Art New England, Fall 2013
-+ Percent For Art Programs, Public Art Review, Fall 2013
-+ What Panelists Look For In An RFQ, NE Foundation For the Arts, Oct 2012
-+ Minding Your RFQ's and P's, Americans For the Arts Blog, Feb 2013
-+ Pushing The Boundaries of Public Art, Art New England, Apr/May 2013
-
-
-## Lectures, Panels
-
-+ _Creating Opportunity Through Placemaking_, for the Boston Society of Architects, Boston, MA; April 2019; with Stephanie Fortunato,Greg Cook, Anita Lauricella, Sarah Hutt, Christina Lanzl
-+ _Writing About Public Art_, Panel for the International Sculpture Center conference, New Orleans; October 2014, with Greg Cook, Douglas + MacCash, Abby Suckle
-+ _Does Public Art Create A Sense Of Place?_ Panel at Boston Society of Architects, Boston, MA July 2014, with Kate Gilbert, Elizabeth + Devlin, Karin Goodfellow
-+ _Culture & Urbanity_, Panel held at the International Sculpture Conference, Art Institute of Chicago, October 2012, with Mary Jane Jacobs, Bill Fontana, Christina Lanzl
-+ _Public Art_, Panel held at the Visual Resources Conference, Providence, RI, April 2013, with Jack Becker, Helen Lessick, Rachel Cain
-+ _Meatwater_, Lecture at the RI School of Design Museum, May 2012
-+ Served On New England Foundation For the Arts, NEST Grants Panels
-+ Managed Grants To Organizations, General Operating Support Panels for the RI State Council on the Arts
 
 
 ## Temporary and Permanent Public Art Commission Management
@@ -211,35 +202,36 @@ From 2004 to 2021, Keithline did business as Wheel Arts Administration. She is c
 + _Light Pressure & Droplets_, Jenn Figg & Matthew McCormack, University of Rhode Island College of Engineering
 + _Resonance_, Lynne Harlow, Wheaton College
 
+## Writing
 
-## Public Art Assessments/Master Plans
++ Monthly International Sculpture Center public art blog
++ _So Happy Together, Artists and Fabricators_, Public Art Review, January 2015
++ _Creative Time, Creative Place_, Public Art Review blog, December 2013
++ _Durability I_, Sculpture Magazine blog, October 2013
++ _Durability II_, Sculpture Magazine blog, December 2013
++ _Convergence, Art New England_, Fall 2013
++ _Percent For Art Programs_, Public Art Review, Fall 2013
++ _What Panelists Look For In An RFQ_, NE Foundation For the Arts, Oct 2012
++ _Minding Your RFQ’s and P’s_, Americans For the Arts Blog, Feb 2013
++ _Pushing The Boundaries of Public Art_, Art New England, Apr/May 2013
 
-**Conducted a 9-month assessment of the place-making and public art climate in the City of Boston** — Sponsored by San San Wong at the Barr Foundation and Jane Preston at the New England Foundation For the Arts The assessment included deep research, interviews with 45 informants, reporting and recommendations.
+## Lectures, Panels
 
-**Public Art Master Plan for TF Green Airport** – convened arts advisors and members of the public to discuss a master plan for the future of public art at Rhode Island’s seven airports. Resulted in Greenspace, an ongoing gallery program, and a total of nine public art commissions.
-
-**Public Art Master Plan for Rhode Island College** – ongoing community conversations with steering committee and other stakeholders; campus wide strategic plan
-
-
-## Select Bibliography
-
-+ _Making The Leap Into Public Art_, Elysian McNiff, Art Work Archive, January 2020
-+ _ArtWorks_, Martina Windels, RI-PBS, May 2012
-+ _Public Art_, Maureen Moakley, RI Access, April 2013
-+ _A Tool Is A Mirror at Mobius_, Boston Globe, Cate McQuaid, May 2011
-+ _Art That Walks A Fine Line Between Reality And Illusion_, The New York Times, Benjamin Genocchio, January 2008
-+ _Shadow Show, Art New England_, Patricia Rosoff, April/May 2008
-+ _Out Of Darkness_, The Hartford Courant, Matt Eagan, November 2007
-+ _Rhode Island’s Public Art Program Threatened_, Art New England, Doug Norris, April/May 2010
-+ _Window Dressing: A Look Into Providence’s Art Windows_, Art New England, Doug Norris, December/January 2010
-+ _Shadow Show_, Art New England, Patricia Rosoff, April/May 2008
-+ _Out Of Darkness_, The Hartford Courant, Matt Eagan, November 2007
-
++ _Creating Opportunity Through Placemaking_, for the Boston Society of Architects, Boston, MA; April 2019; with Stephanie Fortunato,Greg Cook, Anita Lauricella, Sarah Hutt, Christina Lanzl
++ _Writing About Public Art_, Panel for the International Sculpture Center conference, New Orleans; October 2014, with Greg Cook, Douglas + MacCash, Abby Suckle
++ _Does Public Art Create A Sense Of Place?_ Panel at Boston Society of Architects, Boston, MA July 2014, with Kate Gilbert, Elizabeth + Devlin, Karin Goodfellow
++ _Culture & Urbanity_, Panel held at the International Sculpture Conference, Art Institute of Chicago, October 2012, with Mary Jane Jacobs, Bill Fontana, Christina Lanzl
++ _Public Art_, Panel held at the Visual Resources Conference, Providence, RI, April 2013, with Jack Becker, Helen Lessick, Rachel Cain
++ _Meatwater_, Lecture at the RI School of Design Museum, May 2012
++ Served On New England Foundation For the Arts, NEST Grants Panels
++ Managed Grants To Organizations, General Operating Support Panels for the RI State Council on the Arts
 
 ## Education
 
-**Emerson College, Bachelor of Science in Communications**
+Emerson College, Bachelor of Science in Communications
 
-Advisory Committee, Public Art Review  
-Advisory Committee, City of Providence Department of Arts, Culture and Tourism  
+## Memberships
+
+Advisory Committee, Calabar Gallery, CoLAB Arts Residency
+Advisory Committee, Ulster County Arts & Cultural Commission Funding & Advocacy Group
 Memberships: ArTTable, International Sculpture Center, Americans for the Arts, Ecoarts

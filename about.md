@@ -28,58 +28,37 @@ Elizabeth Keithline
 [elizabethkeithline@gmail.com](mailto:elizabethkeithline@gmail.com)  
 [401/578-4313](tel:401-578-4313)
 
-### Public Art Projects 
+
+### Select One or Two Person Shows
+
+2026
+: _New Work at Wallkill River Arts Center_, Montgomery, NY
+: _Installation at Convey/ER/OR_, Poughkeepsie, NY
+
+2025
+: _Breaking Broken_, Unison Art Center, New Paltz, NY
+
+2024
+: _Breaking Broken_, Jane Street Art Center, Saugerties, NY
 
 2023
-: _Made In The Shade_, City of NY Parks & Recreation, Brooklyn, NY
+: _Through Line_, Chashama, New York, NY
 
 2022
-: _Through Line_, Newberry Artisans, Saugerties, NY 
-
-2019
-: _Shadow Tree_, Peabody Essex Museum, Salem MA	
-
-2018
-: _Two Boats: One For You, One For Me_, North Bennington Outdoor Sculpture Show, North Bennington, VT
-: _Hot, Hot, Hot_ and _Three Arches_, Art In the Yard, Oxford Free Public Library, Oxford, MA
-
-2017
-: _Two Boats: One For You, One For Me_, Art In the Park, Worcester; Anna Maria College, Paxton, MA 
-: _Dreamtown_, ArtPrize, Grand Rapids, MI
-
-2016
-: _Downtown Dreamtown_, 1 Summer Street, Boston, MA
-
-2015
-: _Isle Arts Initiative_, Georges Island, Boston
-
-2011
-: _Gatescapes_, New York, NY
-
-Multi-year
-: _WindSeaSky_, Convergence Sculpture Festival, Newport, RI
-
-2006-07
-: _Ourchitecture_, Newport Art Museum and RI Housing Authority, Providence
-
-2004
-: _Open for Dancing_, Island Moving Company, Newport, RI
-
-
-### Select One or Two Person Museum or Gallery Shows
+: _Welcome Home/Shadow Home_, Chashama, New York, NY
 
 2021
-: _Shadow Paintings_, 11 Jane Street, Saugerties, NY
+: _Shadow Paintings_, Jane Street Art Center, Saugerties, NY
 
 2019
 : _Shadow Tree_, Peabody Essex Museum, Salem MA
-: _(The Air), As It Moves_, Umass Dartmouth, New Bedford, MA
+: _(The Air), As It Moves_, UMass Dartmouth, New Bedford, MA
 
 2016
 : _Dreamtown_, ArtPrize, Grand Rapids, MI
 
 2014
-: _Only The Strong Survive_, Hampden Gallery, Umass Amherst, MA
+: _Only The Strong Survive_, Hampden Gallery, UMass Amherst, MA
 
 2013
 : _Smarter, Faster, Higher_, Blue Star Contemporary, San Antonio, TX
@@ -87,6 +66,7 @@ Multi-year
 
 2012
 : _Only The Strong Survive_, Governors Island, NY
+: _Paradox/Survival_, Bozarts Gallery, Water Valley, MS
 
 2011
 : _Smarter, Faster, Higher_, Danforth Museum, Framingham, MA
@@ -126,14 +106,62 @@ Multi-year
 : _New Work_, Native Gallery, Providence, RI
 
 
+### Public Art Projects 
+
+2025
+: _Earthy_, North Bennington Outdoor Sculpture Show, Bennington Museum, Bennington, VT
+: _Vault Installation_, Expressions In Every Form, Newburgh, NY; curated by Shirley Noto
+
+2023
+: _Made In The Shade_, New York Parks & Recreation/Old Stone House, Brooklyn, NY; curated by Elizabeth Masella
+: _Through Line_, Newberry Artisan Market, Saugerties, NY
+
+2018
+: _Two Boats: One For You, One For Me_, North Bennington Outdoor Sculpture Show, North Bennington, VT
+: _Hot, Hot, Hot_ and _Three Arches_, Art In the Yard, Oxford Free Public Library, Oxford, MA
+
+2017
+: _Two Boats: One For You, One For Me_, Art In the Park, Worcester; Anna Maria College, Paxton, MA 
+: _Dreamtown_, ArtPrize, Grand Rapids, MI
+
+2016
+: _Downtown Dreamtown_, 1 Summer Street, Boston, MA
+
+2015
+: _Isle Arts Initiative_, Georges Island, Boston
+
+2011
+: _Gatescapes_, New York, NY
+
+Multi-year
+: _WindSeaSky_, Convergence Sculpture Festival, Newport, RI
+
+2006-07
+: _Ourchitecture_, Newport Art Museum and RI Housing Authority, Providence
+
+
 ### Selected Group Exhibitions
 
-2021
-: _OMG Art Fair_, Kingston, NY
+2026
+: _Trash Show_, Jane Street Art Center, Saugerties, NY
+
+2025
+: _Telephone_, worldwide, curated by Nathan Langston
+
+2024
+: _Among Friends_, New York, NY
+: _Calicornucopia 13_, Calico Gallery, Woodstock, NY
+
+2023
+: _Worry_, Soft Machine Gallery, Allentown, PA
+: _Feminine Agenda_, New York, NY; curated by Atim Annette Oton
+
+2022
+: _December_, Artists Equity Gallery New York, NY
 
 2020
 : _Telephone_, Worldwide, Curator Nathan Langston
-: _USPSartproject.org_, Worldwide, Organized by Christina Massey
+: _USPSartproject.org_, Worldwide; Organized by Christina Massey
 
 2019
 : _Rebirth_, Worcester Windows, Worcester City Hall, MA
@@ -156,7 +184,7 @@ Multi-year
 : _Drawing Out Of Bounds_, Wheaton College, Norton, MA; curator, Judith Tannenbaum
 : _Portland Museum of Art Biennial_, (with Rahul Mitra)
 : _Transmission_, (with Nathan Langston, Satellite Collective)
-: _Nature Talks Back_, Wheaton College, Norton, MA — Curator, Michele L’Heureux
+: _Nature Talks Back_, Wheaton College, Norton, MA; Curator, Michele L’Heureux
 
 2012
 : _Actual Size_, Contemporary Art Institute, Detroit, MI
@@ -201,46 +229,3 @@ Multi-year
 : _Spark Selects_, Spark Gallery, Denver, CO
 : _WindSeaSky_, Convergence Sculpture Festival, Newport, RI
 : _Babylon Lexicon_, Barrister’s Gallery, New Orleans, LA
-
-
-## Education
-
-Emerson College, Bachelor of Science, Communications, 1983  
-Saunderstown Weaving School, 1996
-
-
-## Selected Bibliography
-
-+ “Elizabeth Keithline at 11 Jane Street Art Center,” **WKZE Radio** 98.1, August 2021
-+ “Making The Leap Into Public Art,” Elysian McNiff, **Art Work Archive**, January 2020
-+ “Challenging Stereotypes: Raquel Paiewonsky In New Bedford,” Ron Fortier, **ArtScope**, September 2019
-+ “Six Massachusetts Museums That Are Great For Sculpture,” Tim Haas, **WGBH**, August 2019
-+ “Wind-Themed Projects On Display At Umass Dartmouth Star Store Campus,” **Southcoast Today**, June 2019
-+ “City-Wide Summer Winds Celebration Blows Through New Bedford With Art Exhibits & Installations,” Cait McQuaid, **Boston Globe**, August 2019
-+ “The North Bennington Outdoor Sculpture Show Opens 21st Edition This Weekend,” Telly Halkias, **Bennington Banner**, Sept 2018
-+ “Impressions of Downtown Doors and Windows Evoke Dream of Boston Architecture,” Greg Cook, **The ARTery, WBUR**, Boston, MA, 2017
-+ ”Call For Bushwick 2016: Don’t Stop Me Now Rises To The Occasion In Bushwick Hipster Glory,” Nick Rogers, **ArteFuse**, October 2016
-+ “Blaine de St. Croix and Elizabeth Keithline, Blue Star Contemporary Art Museum,” Dan R. Cameron, **Sculpture Magazine**, October 2014
-+ “Elizabeth Keithline & Samantha Jones At Governors Island,” Manu Shandler, **Plastikos**, Sept 2012
-+ “Fifth Annual Governors Island Art Fair,” Elizabeth Johnson, **theartblog.org**, Sept 2012
-+ “ArtWorks,” Martina Windels, **RI-PBS**, May 2012
-+ “Smarter, Faster, Higher,” Judith Tolnick-Champa, **ArtScope**, May 2011
-+ “Smarter, Faster, Higher,” Debbie Hagan, **Art New England**, May/June 2011
-+ “A Tool Is A Mirror at Mobius,” Cate McQuaid, **Boston Globe**, May 2011
-+ “Sweet and Smoky: At Hampden Gallery, Two Distinctive Exhibits Are Compatible,” **Hampden Gazette**, Kay Mellen, Sept 2010
-+ “Elizabeth Keithline at Craft Alliance Gallery Grand Center,” **Where/St. Louis**, Sept 2010
-+ “Best Bets,” **GO Magazine**, St. Louis, MO, Aug 2010
-+ “Rhode Island’s Public Art Program Threatened,” Doug Norris, **Art New England**, April/May 2010
-+ “Window Dressing: A Look Into Providence’s Art Windows,” Doug Norris, **Art New England**, December/January 2010
-+ “Art That Walks A Fine Line Between Reality And Illusion,” Benjamin Genocchio, **The New York Times**, January 2008
-+ “Shadow Show,” Patricia Rosoff, **Art New England**, April/May 2008
-+ “Out Of Darkness,” Matt Eagan, **The Hartford Courant**, November 2007
-+ “Itinerary,” Glenn Harper, **Sculpture Magazine**, December 2005
-+ “Ourchitecture At the Newport Art Museum,” Bill Rodriguez, **The Providence Phoenix**, December 2005
-+ “Objects Lost & Found Again,” Nancy Sausser, **Fiberarts**, November 2005
-+ “Change In Scenery,” Alison Fields, **Providence Monthly**, May 2004
-+ “Local Artists Focus On the Changing Face of Providence,” Bill Van Siclen, **Providence Journal**, Providence, RI, April 2004 
-+ “At RIC: Part-Time Faculty With Full-Time Talent,” Bill Van Siclen, **Providence Journal**, Providence, RI, July 2003
-+ “Elizabeth Keithline: Wire and Paint,” D. Eric Bookhardt, **New Orleans Gambit**, New Orleans, LA, September 2001
-+ “Mini-Galleries Spread Art Around,” Channing Gray, **Providence Journal**, Providence, RI, June 2001
-+ “Art from The Ashes,” Ellen Liberman, **1 Union Station, WRNI**, Providence, RI, May 2001
