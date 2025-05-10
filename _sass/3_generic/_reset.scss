@@ -69,6 +69,11 @@ audio {
   width: 100%;
 }
 
+// Anything that has been anchored to should have extra scroll margin due to sticky header
+:target {
+  scroll-margin-block: 5ex;
+}
+
 // Generic Anchor style
 a {
   background-color: transparent; // Remove the gray background on active links in IE 10.
