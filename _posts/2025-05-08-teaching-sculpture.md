@@ -6,7 +6,7 @@ categories: [ "Announcements" ]
 excerpt: 'Elizabeth will be teaching an Arts Administration class at Wallkill River Arts Center, Montgomery, NY; showing public work as part of the North Bennington Outdoor Sculpture Show in VT; and already has a busy schedule for 2026.'
 ---
 
-<img src="/assets/news/Diptychs_05-04-2025.jpg" width="1200" height="900" alt="" />
+<img src="/assets/news/Diptychs_05-04-2025.jpg" alt="" />
 
 Elizabeth will be teaching an Arts Administration class at Wallkill River Arts Center, Montgomery, NY on Saturday, May 31, 2025 from 10:00 am to noon. [Please register through their website](https://wallkill.art/event/saturday-salon-arts-admin-with-liz-keithline/).
 
