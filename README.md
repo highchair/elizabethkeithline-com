@@ -3,7 +3,7 @@ elizabethkeithline-com
 
 Static website for artist Elizabeth Keithline. 
 
-Initialized with a fresh OSX install. Followed [these intructions](https://stackoverflow.com/questions/51126403/you-dont-have-write-permissions-for-the-library-ruby-gems-2-3-0-directory-ma) to get a new install of Ruby separate from the Ruby that comes with Mac. Hopefully this will make it easier to manage Gems and Ruby versions in the future. 
+Initialized with a fresh OSX install. Followed [these instructions](https://stackoverflow.com/questions/51126403/you-dont-have-write-permissions-for-the-library-ruby-gems-2-3-0-directory-ma) to get a new install of Ruby separate from the Ruby that comes with Mac. Hopefully this will make it easier to manage Gems and Ruby versions in the future. 
 
 I ended up paying for Ruby On Mac and it worked immediately. When I followed the instructions myself I could not get ZSH to use the Homebrew installed Ruby. 
 
