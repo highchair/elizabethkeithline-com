@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 gem "liquid", ">=4.0.0"
-gem "jekyll", ">=4.2.0"
+gem "jekyll", ">=4.4.0"
 gem "jekyll-watch", ">=2.0.0"
 gem "jekyll-autoprefixer", ">=1.0.0"
 gem "sassc",">=2.4.0"
