@@ -9,7 +9,7 @@ body-class: wheel
 
 # Wheel Arts
 
-From 2004 to 2021, Keithline did business as Wheel Arts Administration. She is currently the part-time Exhibitions Director for the Woodstock Artists Association and Museum and is not taking on new clients.
+From 2004-2021, Keithline did business as Wheel Arts Administration. When she moved to Woodstock, NY, she served as Exhibitions Director for the Woodstock Artist Association & Museum for 3 years. She is now a full time artist and is not accepting new clients.
 {:id="wheel-resume"}
 
 [Download a DOCX resume]({% link /assets/wheel/Keithline-Arts-Administration-Resume-05-06-25.docx %}).

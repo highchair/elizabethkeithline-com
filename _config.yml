@@ -26,7 +26,7 @@ github_repo: "https://github.com/highchair/elizabethkeithline-com"
 baseurl: "/"
 port: 5060
 url: "http://127.0.0.1:5060" # the base hostname & protocol for your site, e.g. http://example.com
-prod_url: "http://elizabethkeithline.com" # should not end with a slash
+prod_url: "https://elizabethkeithline.com" # should not end with a slash
 destination: _site/
 
 # Build settings

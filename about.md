@@ -9,10 +9,17 @@ body-class: about
 
 # About
 
-Elizabeth Keithline’s work focuses on human self-extension in many forms. A weaver since the age of 14, in 1996 she invented a sculpture technique called “Lost Box.” She weaves wire around objects, then burns them out or peels them off, creating a wire memory.
+Artist Elizabeth Keithline’s work focuses on human self-extension and its effects. In 1996, she invented a sculpture technique wherein wire is woven around an object and then burned out, leaving behind a wire “memory.” Her interest in how far an abstraction can go, how many iterations of a thought can be manifested, is ongoing.
 {:.u__lead}
 
-<div id="readmore" class="u__infobox" markdown="1">
+<div id="readmore" markdown="1"></div>
+  
+Keithline has curated exhibits and shown her own artwork through ChaShaMa NYC, the New York Department of Parks & Recreation, the Peabody Essex Museum, the Danforth Museum, Wheaton College, Real Art Ways, Craft Alliance St. Louis, the Newport Art Museum, the Contemporary Art Institute of Detroit, New York University, Mark Miller Gallery, Governors Island NY, Mobius Boston, the Fuller Museum.
+
+Her work has been well-reviewed in the New York Times, Sculpture Magazine, the Boston Globe, the Hartford Courant and others.
+
+<div class="u__infobox" markdown="1">
+
 ## Wheel Arts Administration
 {:.h3}
 
