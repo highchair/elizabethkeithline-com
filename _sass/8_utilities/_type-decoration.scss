@@ -39,4 +39,10 @@
       margin-top: ($vertical-rhythm/2);
     }
   }
+
+  &__sold {
+    color: palette('brand-orange');
+    font-variation-settings: $font-custom__sans__bold;
+    margin: 0 0.75em;
+  }
 }
