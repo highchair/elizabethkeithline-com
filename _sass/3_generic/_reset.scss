@@ -69,9 +69,11 @@ audio {
   width: 100%;
 }
 
-// Anything that has been anchored to should have extra scroll margin due to sticky header
-:target {
-  scroll-margin-block: 5ex;
+// When an element has an ID, give it space so that it is not at the very top of the viewport
+// The rlh unit is "relative line-height"
+// Credit to https://cssence.com/2025/scroll-margin-scroll-padding/
+[id]:target {
+  scroll-margin-block: 4rlh;
 }
 
 // Generic Anchor style
