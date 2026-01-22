@@ -5,15 +5,15 @@
   
   @include breakpoint-up(medium) {
     .painting-1 {
-      flex-basis: 40%;
+      flex-basis: 37%;
     }
 
     .painting-2 {
-      flex-basis: 32%;
+      flex-basis: 30.5%;
     }
 
     .painting-3 {
-      flex-basis: 21.5%;
+      flex-basis: 30%;
     }
   }
 }
